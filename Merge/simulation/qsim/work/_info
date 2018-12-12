@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CAUCSE/Desktop/JuhyeongLogicCircuit/Merge/simulation/qsim
+vAutomaticRestaurant
+Z1 !s110 1544614109
+!i10b 1
+!s100 4kX;i3PS=j?2TF@3`cENn1
+IX<DPY3G<[eh1FQBO;ZzPh0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544614108
+Z4 8AutomaticRestaurant.vo
+Z5 FAutomaticRestaurant.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1544614109.000000
+Z8 !s107 AutomaticRestaurant.vo|
+Z9 !s90 -work|work|AutomaticRestaurant.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@automatic@restaurant
+vAutomaticRestaurant_vlg_vec_tst
+R1
+!i10b 1
+!s100 z8A@JOKcnTIOOQ1N>57e>3
+I_Pi>MMdG?5E@XO=Qb1Ji31
+R2
+R0
+w1544614107
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@automatic@restaurant_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 ^0>6?;cKJkz`ElJH@P8Kj0
+IDYD5k>hIH=E?Sa:4Mz0Pn3
+R2
+R0
+R3
+R4
+R5
+L0 5562
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

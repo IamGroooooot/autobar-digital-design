@@ -1,0 +1,186 @@
+|FourBitCounter
+a <= 74161:index.QA
+clear => 74161:index.CLRN
+CLK => gdfx_temp0.IN0
+b <= 74161:index.QB
+c <= 74161:index.QC
+d <= 74161:index.QD
+total_1 <= total1.DB_MAX_OUTPUT_PORT_TYPE
+tn0 => muxxxx:Mux161.in0
+tn1 => muxxxx:Mux161.in1
+tn2 => muxxxx:Mux161.in2
+tn3 => muxxxx:Mux161.in3
+tn4 => muxxxx:Mux161.in4
+tn5 => muxxxx:Mux161.in5
+tn6 => muxxxx:Mux161.in6
+tn7 => muxxxx:Mux161.in7
+tn8 => muxxxx:Mux161.in8
+tn9 => muxxxx:Mux161.in9
+tn10 => muxxxx:Mux161.in10
+tn11 => muxxxx:Mux161.in11
+tn12 => muxxxx:Mux161.in12
+tn13 => muxxxx:Mux161.in13
+tn14 => muxxxx:Mux161.in14
+tn15 => muxxxx:Mux161.in15
+total_2 <= total2.DB_MAX_OUTPUT_PORT_TYPE
+total_3 <= total3.DB_MAX_OUTPUT_PORT_TYPE
+total_4 <= total4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitCounter|74161:index
+clk => f74161:sub.clk
+ldn => ~NO_FANOUT~
+clrn => f74161:sub.clrn
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => f74161:sub.d
+c => f74161:sub.c
+b => f74161:sub.b
+a => f74161:sub.a
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|FourBitCounter|74161:index|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitCounter|7483:Ttotal
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitCounter|muxxxx:Mux161
+OUTPUT <= MUX41:inst.Q
+sel2 => MUX41:inst.S0
+sel0 => MUX41:inst3.S0
+sel0 => MUX41:inst4.S0
+sel0 => MUX41:inst1.S0
+sel0 => MUX41:inst2.S0
+in10 => MUX41:inst3.D2
+sel1 => MUX41:inst3.S1
+sel1 => MUX41:inst4.S1
+sel1 => MUX41:inst1.S1
+sel1 => MUX41:inst2.S1
+in11 => MUX41:inst3.D3
+in8 => MUX41:inst3.D0
+in9 => MUX41:inst3.D1
+sel3 => MUX41:inst.S1
+in14 => MUX41:inst4.D2
+in15 => MUX41:inst4.D3
+in12 => MUX41:inst4.D0
+in13 => MUX41:inst4.D1
+in2 => MUX41:inst1.D2
+in3 => MUX41:inst1.D3
+in0 => MUX41:inst1.D0
+in1 => MUX41:inst1.D1
+in6 => MUX41:inst2.D2
+in7 => MUX41:inst2.D3
+in4 => MUX41:inst2.D0
+in5 => MUX41:inst2.D1
+
+
+|FourBitCounter|muxxxx:Mux161|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FourBitCounter|muxxxx:Mux161|MUX41:inst3
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FourBitCounter|muxxxx:Mux161|MUX41:inst4
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FourBitCounter|muxxxx:Mux161|MUX41:inst1
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|FourBitCounter|muxxxx:Mux161|MUX41:inst2
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+

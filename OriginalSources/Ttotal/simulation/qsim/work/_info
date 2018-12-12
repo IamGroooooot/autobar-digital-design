@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CAUCSE/Desktop/newFold/simulation/qsim
+vFourBitCounter
+Z1 !s110 1544355902
+!i10b 1
+!s100 6O^6@DX`L64WFM7[QJ<dP1
+IKf1<5[O<7d@lz:^dOI0493
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544355901
+Z4 8FourBitCounter.vo
+Z5 FFourBitCounter.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1544355902.000000
+Z8 !s107 FourBitCounter.vo|
+Z9 !s90 -work|work|FourBitCounter.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@four@bit@counter
+vFourBitCounter_vlg_vec_tst
+R1
+!i10b 1
+!s100 V=6[U^_HW]Bg8?l_J?n6k2
+IijNG>[6`Vknb7cMd:l:Kc2
+R2
+R0
+w1544355900
+8Waveform12.vwf.vt
+FWaveform12.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform12.vwf.vt|
+!s90 -work|work|Waveform12.vwf.vt|
+!i113 1
+R10
+R11
+n@four@bit@counter_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 hH0k1AlfPQ=k>J:c;BD<U2
+INefV?0VVm6kAfZ:`^:IXG1
+R2
+R0
+R3
+R4
+R5
+L0 990
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

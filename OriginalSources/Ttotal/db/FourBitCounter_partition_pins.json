@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "a",
+					"strict" : false
+				},
+				{
+					"name" : "b",
+					"strict" : false
+				},
+				{
+					"name" : "c",
+					"strict" : false
+				},
+				{
+					"name" : "d",
+					"strict" : false
+				},
+				{
+					"name" : "total_1",
+					"strict" : false
+				},
+				{
+					"name" : "total_2",
+					"strict" : false
+				},
+				{
+					"name" : "total_3",
+					"strict" : false
+				},
+				{
+					"name" : "total_4",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "tn6",
+					"strict" : false
+				},
+				{
+					"name" : "tn10",
+					"strict" : false
+				},
+				{
+					"name" : "tn2",
+					"strict" : false
+				},
+				{
+					"name" : "tn14",
+					"strict" : false
+				},
+				{
+					"name" : "tn9",
+					"strict" : false
+				},
+				{
+					"name" : "tn5",
+					"strict" : false
+				},
+				{
+					"name" : "tn1",
+					"strict" : false
+				},
+				{
+					"name" : "tn13",
+					"strict" : false
+				},
+				{
+					"name" : "tn8",
+					"strict" : false
+				},
+				{
+					"name" : "tn4",
+					"strict" : false
+				},
+				{
+					"name" : "tn0",
+					"strict" : false
+				},
+				{
+					"name" : "tn12",
+					"strict" : false
+				},
+				{
+					"name" : "tn7",
+					"strict" : false
+				},
+				{
+					"name" : "tn11",
+					"strict" : false
+				},
+				{
+					"name" : "tn3",
+					"strict" : false
+				},
+				{
+					"name" : "tn15",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
