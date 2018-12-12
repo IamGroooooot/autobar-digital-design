@@ -1,0 +1,12 @@
+D:\nam\qts\phaser\vwfphaser\vwfphaser\bin\Debug\vwfphaser.exe.config
+D:\nam\qts\phaser\vwfphaser\vwfphaser\bin\Debug\vwfphaser.exe
+D:\nam\qts\phaser\vwfphaser\vwfphaser\bin\Debug\vwfphaser.pdb
+D:\nam\qts\phaser\vwfphaser\vwfphaser\bin\Debug\vwfphaser.xml
+D:\nam\qts\phaser\vwfphaser\vwfphaser\obj\Debug\vwfphaser.vbprojResolveAssemblyReference.cache
+D:\nam\qts\phaser\vwfphaser\vwfphaser\obj\Debug\vwfphaser.Form1.resources
+D:\nam\qts\phaser\vwfphaser\vwfphaser\obj\Debug\vwfphaser.Resources.resources
+D:\nam\qts\phaser\vwfphaser\vwfphaser\obj\Debug\vwfphaser.vbproj.GenerateResource.Cache
+D:\nam\qts\phaser\vwfphaser\vwfphaser\obj\Debug\vwfphaser.vbproj.CoreCompileInputs.cache
+D:\nam\qts\phaser\vwfphaser\vwfphaser\obj\Debug\vwfphaser.exe
+D:\nam\qts\phaser\vwfphaser\vwfphaser\obj\Debug\vwfphaser.xml
+D:\nam\qts\phaser\vwfphaser\vwfphaser\obj\Debug\vwfphaser.pdb
