@@ -1,13 +1,13 @@
 Determining the location of the ModelSim executable...
 
-Using: d:/intelfpga_lite/18.1/modelsim_ase/win32aloem/
+Using: c:/intelfpga_lite/18.1/modelsim_ase/win32aloem/
 
 To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
 Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant --vector_source="D:/nam/AutoBar_DigitalDesign-master/Merge/Waveform4.vwf" --testbench_file="D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/Waveform4.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant --vector_source="C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/Waveform5.vwf" --testbench_file="C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/simulation/qsim/Waveform5.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -25,19 +25,19 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Thu Dec 13 17:25:43 2018
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant --vector_source=D:/nam/AutoBar_DigitalDesign-master/Merge/Waveform4.vwf --testbench_file=D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/Waveform4.vwf.vt
+    Info: Processing started: Thu Dec 13 19:57:44 2018
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant --vector_source=C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/Waveform5.vwf --testbench_file=C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/simulation/qsim/Waveform5.vwf.vt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
- vector source file when writing test bench files
+noring output pin "Display2j" in vector source file when writing test bench files
 
 Completed successfully. 
 
 Completed successfully. 
 
-**** Generating the timing simulation netlist ****
+**** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/" AutomaticRestaurant -c AutomaticRestaurant
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/simulation/qsim/" AutomaticRestaurant -c AutomaticRestaurant
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -55,20 +55,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Thu Dec 13 17:25:44 2018
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/ AutomaticRestaurant -c AutomaticRestaurant
+    Info: Processing started: Thu Dec 13 19:57:45 2018
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/simulation/qsim/ AutomaticRestaurant -c AutomaticRestaurant
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file AutomaticRestaurant_6_1200mv_85c_slow.vo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file AutomaticRestaurant_6_1200mv_0c_slow.vo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file AutomaticRestaurant_min_1200mv_0c_fast.vo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file AutomaticRestaurant.vo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file AutomaticRestaurant_6_1200mv_85c_v_slow.sdo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file AutomaticRestaurant_6_1200mv_0c_v_slow.sdo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file AutomaticRestaurant_min_1200mv_0c_v_fast.sdo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file AutomaticRestaurant_v.sdo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file AutomaticRestaurant.vo in folder "C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4731 megabytes
-    Info: Processing ended: Thu Dec 13 17:25:45 2018
+    Info: Peak virtual memory: 4721 megabytes
+    Info: Processing ended: Thu Dec 13 19:57:46 2018
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -76,58 +69,74 @@ Completed successfully.
 
 **** Generating the ModelSim .do script ****
 
-D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/AutomaticRestaurant.do generated.
+C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/simulation/qsim/AutomaticRestaurant.do generated.
 
 Completed successfully. 
 
 **** Running the ModelSim simulation ****
 
-d:/intelfpga_lite/18.1/modelsim_ase/win32aloem//vsim -c -do AutomaticRestaurant.do
+c:/intelfpga_lite/18.1/modelsim_ase/win32aloem//vsim -c -do AutomaticRestaurant.do
 
-Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
-
+Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 
 # 10.5b
+
 
 # do AutomaticRestaurant.do
 # ** Warning: (vlib-34) Library already exists at "work".
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:25:46 on Dec 13,2018
+# Start time: 19:57:47 on Dec 13,2018
 # vlog -work work AutomaticRestaurant.vo 
 # -- Compiling module AutomaticRestaurant
 # -- Compiling module hard_block
 # 
 # Top level modules:
 # 	AutomaticRestaurant
-# End time: 17:25:46 on Dec 13,2018, Elapsed time: 0:00:00
+
+# End time: 19:57:48 on Dec 13,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:25:46 on Dec 13,2018
-# vlog -work work Waveform4.vwf.vt 
+# Start time: 19:57:48 on Dec 13,2018
+# vlog -work work Waveform5.vwf.vt 
 # -- Compiling module AutomaticRestaurant_vlg_vec_tst
 # 
 # Top level modules:
 # 	AutomaticRestaurant_vlg_vec_tst
-# End time: 17:25:46 on Dec 13,2018, Elapsed time: 0:00:00
+# End time: 19:57:48 on Dec 13,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
-# after#1
-
-Error: can't read "FileWatch(fileName)": no such element in array
+# vsim -novopt -c -t 1ps -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.AutomaticRestaurant_vlg_vec_tst 
+# Start time: 19:57:48 on Dec 13,2018
+# Loading work.AutomaticRestaurant_vlg_vec_tst
+# Loading work.AutomaticRestaurant
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#26
+# ** Note: $finish    : Waveform5.vwf.vt(178)
+#    Time: 1 us  Iteration: 0  Instance: /AutomaticRestaurant_vlg_vec_tst
+# End time: 19:57:48 on Dec 13,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading D:/nam/AutoBar_DigitalDesign-master/Merge/Waveform4.vwf...
+Reading C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/Waveform5.vwf...
 
-Reading D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/AutomaticRestaurant.msim.vcd...
+Reading C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/simulation/qsim/AutomaticRestaurant.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/AutomaticRestaurant_20181213172548.sim.vwf
+Writing the resulting VWF to C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/simulation/qsim/AutomaticRestaurant_20181213195749.sim.vwf
 
 Finished VCD to VWF conversion.
 

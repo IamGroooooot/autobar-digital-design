@@ -140,6 +140,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "OpenerDisplay1",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay2",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay3",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay4",
+					"strict" : false
+				},
+				{
 					"name" : "TotalPrice1",
 					"strict" : false
 				},
@@ -169,22 +185,6 @@
 				},
 				{
 					"name" : "TotalPrice8",
-					"strict" : false
-				},
-				{
-					"name" : "OpenerDisplay1",
-					"strict" : false
-				},
-				{
-					"name" : "OpenerDisplay2",
-					"strict" : false
-				},
-				{
-					"name" : "OpenerDisplay3",
-					"strict" : false
-				},
-				{
-					"name" : "OpenerDisplay4",
 					"strict" : false
 				},
 				{

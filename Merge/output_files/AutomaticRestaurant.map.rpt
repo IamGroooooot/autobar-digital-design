@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AutomaticRestaurant
-Thu Dec 13 19:47:57 2018
+Thu Dec 13 20:29:11 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Dec 13 19:47:57 2018       ;
+; Analysis & Synthesis Status        ; Successful - Thu Dec 13 20:29:11 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AutomaticRestaurant                         ;
 ; Top-level Entity Name              ; AutomaticRestaurant                         ;
@@ -154,7 +154,7 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
+; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -167,22 +167,22 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                              ;
-+----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                                              ; Library ;
-+----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------+
-; AutomaticRestaurant.bdf          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/AutomaticRestaurant.bdf       ;         ;
-; pseudo_rand_num_generator.bdf    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/pseudo_rand_num_generator.bdf ;         ;
-; id7_segement_decoder.bdf         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/id7_segement_decoder.bdf      ;         ;
-; order_register.bdf               ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/order_register.bdf            ;         ;
-; test.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/test.bdf                      ;         ;
-; table2segdecoder.bdf             ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/table2segdecoder.bdf          ;         ;
-; remain_table.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/remain_table.bdf              ;         ;
-; adad.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/adad.bdf                      ;         ;
-; 7483.bdf                         ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/others/maxplus2/7483.bdf                                                         ;         ;
-; dffmax.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/dffmax.bdf                    ;         ;
-+----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                            ; Library ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------+---------+
+; AutomaticRestaurant.bdf          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/AutomaticRestaurant.bdf       ;         ;
+; pseudo_rand_num_generator.bdf    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/pseudo_rand_num_generator.bdf ;         ;
+; id7_segement_decoder.bdf         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/id7_segement_decoder.bdf      ;         ;
+; order_register.bdf               ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/order_register.bdf            ;         ;
+; test.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/test.bdf                      ;         ;
+; table2segdecoder.bdf             ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/table2segdecoder.bdf          ;         ;
+; remain_table.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/remain_table.bdf              ;         ;
+; adad.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/adad.bdf                      ;         ;
+; 7483.bdf                         ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/others/maxplus2/7483.bdf                       ;         ;
+; dffmax.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/duryk/Desktop/AutoBar_DigitalDesign-master/Merge/dffmax.bdf                    ;         ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -209,16 +209,16 @@ refer to the applicable agreement for further details.
 ; |AutomaticRestaurant                    ; 138 (7)             ; 111 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 69   ; 0            ; |AutomaticRestaurant                                    ; AutomaticRestaurant       ; work         ;
 ;    |DFFMAX:DFF_SET|                     ; 0 (0)               ; 25 (25)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|DFFMAX:DFF_SET                     ; DFFMAX                    ; work         ;
 ;    |Pseudo_rand_num_generator:inst123|  ; 2 (2)               ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|Pseudo_rand_num_generator:inst123  ; Pseudo_rand_num_generator ; work         ;
-;    |adad:inst2|                         ; 49 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2                         ; adad                      ; work         ;
-;       |7483:inst10|                     ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst10             ; 7483                      ; work         ;
-;       |7483:inst12|                     ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst12             ; 7483                      ; work         ;
-;       |7483:inst13|                     ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst13             ; 7483                      ; work         ;
-;       |7483:inst3|                      ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst3              ; 7483                      ; work         ;
-;       |7483:inst5|                      ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst5              ; 7483                      ; work         ;
-;       |7483:inst7|                      ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst7              ; 7483                      ; work         ;
-;       |7483:inst8|                      ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst8              ; 7483                      ; work         ;
-;       |7483:inst9|                      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst9              ; 7483                      ; work         ;
-;       |7483:inst|                       ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:inst2|7483:inst               ; 7483                      ; work         ;
+;    |adad:Adder|                         ; 49 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder                         ; adad                      ; work         ;
+;       |7483:inst10|                     ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst10             ; 7483                      ; work         ;
+;       |7483:inst12|                     ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst12             ; 7483                      ; work         ;
+;       |7483:inst13|                     ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst13             ; 7483                      ; work         ;
+;       |7483:inst3|                      ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst3              ; 7483                      ; work         ;
+;       |7483:inst5|                      ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst5              ; 7483                      ; work         ;
+;       |7483:inst7|                      ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst7              ; 7483                      ; work         ;
+;       |7483:inst8|                      ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst8              ; 7483                      ; work         ;
+;       |7483:inst9|                      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst9              ; 7483                      ; work         ;
+;       |7483:inst|                       ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|adad:Adder|7483:inst               ; 7483                      ; work         ;
 ;    |id7_segement_decoder:id2SegDecoder| ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|id7_segement_decoder:id2SegDecoder ; id7_segement_decoder      ; work         ;
 ;    |order_register:Order_Register|      ; 48 (48)             ; 44 (44)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|order_register:Order_Register      ; order_register            ; work         ;
 ;    |remain_table:Remain_Table|          ; 7 (7)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|remain_table:Remain_Table          ; remain_table              ; work         ;
@@ -290,7 +290,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Dec 13 19:47:45 2018
+    Info: Processing started: Thu Dec 13 20:28:57 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -320,15 +320,15 @@ Warning (12125): Using design file remain_table.bdf, which is not specified as a
 Info (12128): Elaborating entity "remain_table" for hierarchy "remain_table:Remain_Table"
 Warning (12125): Using design file adad.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: adad
-Info (12128): Elaborating entity "adad" for hierarchy "adad:inst2"
+Info (12128): Elaborating entity "adad" for hierarchy "adad:Adder"
 Warning (275011): Block or symbol "7483" of instance "inst5" overlaps another block or symbol
 Warning (275011): Block or symbol "7483" of instance "inst7" overlaps another block or symbol
 Warning (275011): Block or symbol "7483" of instance "inst8" overlaps another block or symbol
 Warning (275011): Block or symbol "7483" of instance "inst10" overlaps another block or symbol
 Warning (275009): Pin "D3" not connected
 Warning (275009): Pin "E2" not connected
-Info (12128): Elaborating entity "7483" for hierarchy "adad:inst2|7483:inst12"
-Info (12130): Elaborated megafunction instantiation "adad:inst2|7483:inst12"
+Info (12128): Elaborating entity "7483" for hierarchy "adad:Adder|7483:inst12"
+Info (12130): Elaborated megafunction instantiation "adad:Adder|7483:inst12"
 Warning (12125): Using design file dffmax.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: DFFMAX
 Info (12128): Elaborating entity "DFFMAX" for hierarchy "DFFMAX:DFF_SET"
@@ -350,9 +350,9 @@ Info (21057): Implemented 308 device resources after synthesis - the final resou
     Info (21059): Implemented 51 output pins
     Info (21061): Implemented 239 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 26 warnings
-    Info: Peak virtual memory: 694 megabytes
-    Info: Processing ended: Thu Dec 13 19:47:57 2018
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 4868 megabytes
+    Info: Processing ended: Thu Dec 13 20:29:11 2018
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:27
 
 

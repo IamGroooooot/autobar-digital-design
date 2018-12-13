@@ -57,19 +57,19 @@ NumOfOrder2POS1 <= order_register:Order_Register.order_output0bit
 NumOfOrder2POS2 <= order_register:Order_Register.order_output1bit
 NumOfOrder2POS3 <= order_register:Order_Register.order_output2bit
 NumOfOrder2POS4 <= order_register:Order_Register.order_output3bit
-TotalPrice1 <= adad:inst2.Z1
-TotalPrice2 <= adad:inst2.Z2
-TotalPrice3 <= adad:inst2.Z3
-TotalPrice4 <= adad:inst2.Z4
-TotalPrice5 <= adad:inst2.Z5
-TotalPrice6 <= adad:inst2.Z6
-TotalPrice7 <= adad:inst2.Z7
-TotalPrice8 <= adad:inst2.Z8
-TotalPrice9 <= adad:inst2.Z9
 OpenerDisplay1 <= test:OpenerRemoteCtrl.opener_output0bit
 OpenerDisplay2 <= test:OpenerRemoteCtrl.opener_output1bit
 OpenerDisplay3 <= test:OpenerRemoteCtrl.opener_output2bit
 OpenerDisplay4 <= test:OpenerRemoteCtrl.opener_output3bit
+TotalPrice1 <= adad:Adder.Z1
+TotalPrice2 <= adad:Adder.Z2
+TotalPrice3 <= adad:Adder.Z3
+TotalPrice4 <= adad:Adder.Z4
+TotalPrice5 <= adad:Adder.Z5
+TotalPrice6 <= adad:Adder.Z6
+TotalPrice7 <= adad:Adder.Z7
+TotalPrice8 <= adad:Adder.Z8
+TotalPrice9 <= adad:Adder.Z9
 
 
 |AutomaticRestaurant|Pseudo_rand_num_generator:inst123
@@ -293,7 +293,7 @@ remain_table2bit <= subtract2bit.DB_MAX_OUTPUT_PORT_TYPE
 remain_table3bit <= subtract3bit.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2
+|AutomaticRestaurant|adad:Adder
 Z1 <= 7483:inst12.S1
 G3 => 7483:inst12.B4
 F3 => 7483:inst9.B4
@@ -360,7 +360,7 @@ D3 => ~NO_FANOUT~
 E2 => ~NO_FANOUT~
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst12
+|AutomaticRestaurant|adad:Adder|7483:inst12
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -385,7 +385,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst9
+|AutomaticRestaurant|adad:Adder|7483:inst9
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -410,7 +410,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst7
+|AutomaticRestaurant|adad:Adder|7483:inst7
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -435,7 +435,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst5
+|AutomaticRestaurant|adad:Adder|7483:inst5
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -460,7 +460,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst3
+|AutomaticRestaurant|adad:Adder|7483:inst3
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -485,7 +485,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst
+|AutomaticRestaurant|adad:Adder|7483:inst
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -510,7 +510,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst13
+|AutomaticRestaurant|adad:Adder|7483:inst13
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -535,7 +535,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst10
+|AutomaticRestaurant|adad:Adder|7483:inst10
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -560,7 +560,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst8
+|AutomaticRestaurant|adad:Adder|7483:inst8
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -585,7 +585,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst6
+|AutomaticRestaurant|adad:Adder|7483:inst6
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -610,7 +610,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst4
+|AutomaticRestaurant|adad:Adder|7483:inst4
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -635,7 +635,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|adad:inst2|7483:inst1
+|AutomaticRestaurant|adad:Adder|7483:inst1
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
