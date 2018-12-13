@@ -156,6 +156,34 @@
 					"strict" : false
 				},
 				{
+					"name" : "TotalPrice1",
+					"strict" : false
+				},
+				{
+					"name" : "TotalPrice2",
+					"strict" : false
+				},
+				{
+					"name" : "TotalPrice3",
+					"strict" : false
+				},
+				{
+					"name" : "TotalPrice4",
+					"strict" : false
+				},
+				{
+					"name" : "TotalPrice5",
+					"strict" : false
+				},
+				{
+					"name" : "TotalPrice6",
+					"strict" : false
+				},
+				{
+					"name" : "TotalPrice7",
+					"strict" : false
+				},
+				{
 					"name" : "RandomGame_BTN",
 					"strict" : false
 				},

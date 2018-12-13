@@ -7,15 +7,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/CAUCSE/Desktop/JuhyeongLogicCircuit/Merge/simulation/qsim
+dC:/Users/CAUCSE/Desktop/JuhyeongLogicCircuit/Merge/simulation/qsim
 vAutomaticRestaurant
-Z1 !s110 1544614109
+Z0 !s110 1544687730
 !i10b 1
-!s100 4kX;i3PS=j?2TF@3`cENn1
-IX<DPY3G<[eh1FQBO;ZzPh0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
-Z3 w1544614108
+!s100 X?:`<49W@502:NYPTbDZY2
+IJ9<1JZS;mgG^>TYhoaEjK2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim
+Z3 w1544687726
 Z4 8AutomaticRestaurant.vo
 Z5 FAutomaticRestaurant.vo
 L0 31
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1544614109.000000
+Z7 !s108 1544687729.000000
 Z8 !s107 AutomaticRestaurant.vo|
 Z9 !s90 -work|work|AutomaticRestaurant.vo|
 !i113 1
@@ -31,13 +31,13 @@ Z10 o-work work
 Z11 tCvgOpt 0
 n@automatic@restaurant
 vAutomaticRestaurant_vlg_vec_tst
-R1
-!i10b 1
-!s100 z8A@JOKcnTIOOQ1N>57e>3
-I_Pi>MMdG?5E@XO=Qb1Ji31
-R2
 R0
-w1544614107
+!i10b 1
+!s100 >n>L;<]f9O?1aFFdc7Um52
+IG<m`3<WfjNJ0a03Kh=7zT3
+R1
+R2
+w1544687724
 8Waveform1.vwf.vt
 FWaveform1.vwf.vt
 L0 29
@@ -45,7 +45,7 @@ R6
 r1
 !s85 0
 31
-R7
+!s108 1544687730.000000
 !s107 Waveform1.vwf.vt|
 !s90 -work|work|Waveform1.vwf.vt|
 !i113 1
@@ -53,16 +53,16 @@ R10
 R11
 n@automatic@restaurant_vlg_vec_tst
 vhard_block
-R1
-!i10b 1
-!s100 ^0>6?;cKJkz`ElJH@P8Kj0
-IDYD5k>hIH=E?Sa:4Mz0Pn3
-R2
 R0
+!i10b 1
+!s100 :[4;1AzlIG[>`l1ZF:3ZY1
+I[T9>DWa]LPMl5I0^hgHWm0
+R1
+R2
 R3
 R4
 R5
-L0 5562
+L0 7743
 R6
 r1
 !s85 0

@@ -1,5 +1,5 @@
 Flow report for AutomaticRestaurant
-Thu Dec 13 16:39:45 2018
+Thu Dec 13 16:55:26 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Dec 13 16:39:40 2018       ;
+; Flow Status                        ; Successful - Thu Dec 13 16:55:26 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AutomaticRestaurant                         ;
 ; Top-level Entity Name              ; AutomaticRestaurant                         ;
 ; Family                             ; Cyclone IV GX                               ;
-; Total logic elements               ; 163 / 21,280 ( < 1 % )                      ;
-;     Total combinational functions  ; 84 / 21,280 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 86 / 21,280 ( < 1 % )                       ;
-; Total registers                    ; 86                                          ;
-; Total pins                         ; 60 / 167 ( 36 % )                           ;
+; Total logic elements               ; 229 / 21,280 ( 1 % )                        ;
+;     Total combinational functions  ; 142 / 21,280 ( < 1 % )                      ;
+;     Dedicated logic registers      ; 110 / 21,280 ( < 1 % )                      ;
+; Total registers                    ; 110                                         ;
+; Total pins                         ; 69 / 167 ( 41 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 774,144 ( 0 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 0 / 80 ( 0 % )                              ;
@@ -68,7 +68,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/13/2018 16:39:02 ;
+; Start date & time ; 12/13/2018 16:52:13 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; AutomaticRestaurant ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 93328253222477.154468674216044         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 93328253222477.154468753210660         ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -92,11 +92,13 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4851 MB             ; 00:00:25                           ;
-; Fitter               ; 00:00:17     ; 1.0                     ; 5624 MB             ; 00:00:12                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4765 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 4784 MB             ; 00:00:03                           ;
-; Total                ; 00:00:35     ; --                      ; --                  ; 00:00:41                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4850 MB             ; 00:00:23                           ;
+; Fitter               ; 00:00:11     ; 1.0                     ; 5646 MB             ; 00:00:14                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4765 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 4788 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4716 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4721 MB             ; 00:00:01                           ;
+; Total                ; 00:00:28     ; --                      ; --                  ; 00:00:43                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -109,6 +111,8 @@ refer to the applicable agreement for further details.
 ; Fitter               ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -119,6 +123,8 @@ quartus_map --read_settings_files=on --write_settings_files=off AutomaticRestaur
 quartus_fit --read_settings_files=off --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant
 quartus_asm --read_settings_files=off --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant
 quartus_sta AutomaticRestaurant -c AutomaticRestaurant
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant --vector_source=D:/nam/AutoBar_DigitalDesign-master/Merge/Waveform1.vwf --testbench_file=D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/Waveform1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/ AutomaticRestaurant -c AutomaticRestaurant
 
 
 

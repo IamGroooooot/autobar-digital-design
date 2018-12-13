@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AutomaticRestaurant
-Thu Dec 13 16:39:16 2018
+Thu Dec 13 16:52:23 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -13,10 +13,11 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -42,16 +43,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Dec 13 16:39:16 2018       ;
+; Analysis & Synthesis Status        ; Successful - Thu Dec 13 16:52:23 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AutomaticRestaurant                         ;
 ; Top-level Entity Name              ; AutomaticRestaurant                         ;
 ; Family                             ; Cyclone IV GX                               ;
-; Total logic elements               ; 160                                         ;
-;     Total combinational functions  ; 84                                          ;
-;     Dedicated logic registers      ; 86                                          ;
-; Total registers                    ; 86                                          ;
-; Total pins                         ; 60                                          ;
+; Total logic elements               ; 240                                         ;
+;     Total combinational functions  ; 142                                         ;
+;     Dedicated logic registers      ; 110                                         ;
+; Total registers                    ; 110                                         ;
+; Total pins                         ; 69                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -161,8 +162,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -178,9 +178,9 @@ refer to the applicable agreement for further details.
 ; test.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/test.bdf                      ;         ;
 ; table2segdecoder.bdf             ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/table2segdecoder.bdf          ;         ;
 ; remain_table.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/remain_table.bdf              ;         ;
-; dffmax.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/dffmax.bdf                    ;         ;
 ; readd.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/readd.bdf                     ;         ;
 ; 7483.bdf                         ; yes             ; Megafunction                             ; d:/intelfpga_lite/18.1/quartus/libraries/others/maxplus2/7483.bdf       ;         ;
+; dffmax.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/dffmax.bdf                    ;         ;
 +----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
 
 
@@ -189,14 +189,14 @@ refer to the applicable agreement for further details.
 +--------------------------+------------------+
 ; Resource                 ; Usage            ;
 +--------------------------+------------------+
-; I/O pins                 ; 60               ;
+; I/O pins                 ; 69               ;
 ;                          ;                  ;
 ; DSP block 9-bit elements ; 0                ;
 ;                          ;                  ;
 ; Maximum fan-out node     ; take_order~input ;
 ; Maximum fan-out          ; 26               ;
-; Total fan-out            ; 620              ;
-; Average fan-out          ; 2.14             ;
+; Total fan-out            ; 891              ;
+; Average fan-out          ; 2.28             ;
 +--------------------------+------------------+
 
 
@@ -205,9 +205,20 @@ refer to the applicable agreement for further details.
 +-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------+---------------------------+--------------+
 ; Compilation Hierarchy Node              ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                     ; Entity Name               ; Library Name ;
 +-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------+---------------------------+--------------+
-; |AutomaticRestaurant                    ; 84 (0)              ; 86 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 60   ; 0            ; |AutomaticRestaurant                                    ; AutomaticRestaurant       ; work         ;
+; |AutomaticRestaurant                    ; 142 (7)             ; 110 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 69   ; 0            ; |AutomaticRestaurant                                    ; AutomaticRestaurant       ; work         ;
+;    |DFFMAX:inst|                        ; 0 (0)               ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|DFFMAX:inst                        ; DFFMAX                    ; work         ;
 ;    |Pseudo_rand_num_generator:inst123|  ; 2 (2)               ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|Pseudo_rand_num_generator:inst123  ; Pseudo_rand_num_generator ; work         ;
-;    |id7_segement_decoder:id2SegDecoder| ; 10 (10)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|id7_segement_decoder:id2SegDecoder ; id7_segement_decoder      ; work         ;
+;    |READD:inst521|                      ; 53 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521                      ; READD                     ; work         ;
+;       |7483:inst10|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst10          ; 7483                      ; work         ;
+;       |7483:inst12|                     ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst12          ; 7483                      ; work         ;
+;       |7483:inst13|                     ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst13          ; 7483                      ; work         ;
+;       |7483:inst3|                      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst3           ; 7483                      ; work         ;
+;       |7483:inst5|                      ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst5           ; 7483                      ; work         ;
+;       |7483:inst7|                      ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst7           ; 7483                      ; work         ;
+;       |7483:inst8|                      ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst8           ; 7483                      ; work         ;
+;       |7483:inst9|                      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst9           ; 7483                      ; work         ;
+;       |7483:inst|                       ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst            ; 7483                      ; work         ;
+;    |id7_segement_decoder:id2SegDecoder| ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|id7_segement_decoder:id2SegDecoder ; id7_segement_decoder      ; work         ;
 ;    |order_register:Order_Register|      ; 48 (48)             ; 44 (44)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|order_register:Order_Register      ; order_register            ; work         ;
 ;    |remain_table:Remain_Table|          ; 7 (7)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|remain_table:Remain_Table          ; remain_table              ; work         ;
 ;    |table2segDecoder:table2SegDecoder|  ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|table2segDecoder:table2SegDecoder  ; table2segDecoder          ; work         ;
@@ -216,12 +227,22 @@ refer to the applicable agreement for further details.
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
++------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                           ;
++---------------------------------------+--------------------------------------+
+; Register name                         ; Reason for Removal                   ;
++---------------------------------------+--------------------------------------+
+; DFFMAX:inst|inst70                    ; Stuck at GND due to stuck port clock ;
+; Total Number of Removed Registers = 1 ;                                      ;
++---------------------------------------+--------------------------------------+
+
+
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 86    ;
+; Total registers                              ; 110   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 63    ;
@@ -236,20 +257,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 60                          ;
-; cycloneiii_ff         ; 86                          ;
+; boundary_port         ; 69                          ;
+; cycloneiii_ff         ; 110                         ;
 ;     CLR               ; 63                          ;
-;     plain             ; 23                          ;
-; cycloneiii_lcell_comb ; 91                          ;
-;     normal            ; 91                          ;
+;     plain             ; 47                          ;
+; cycloneiii_lcell_comb ; 153                         ;
+;     normal            ; 153                         ;
 ;         0 data inputs ; 2                           ;
-;         1 data inputs ; 7                           ;
-;         2 data inputs ; 12                          ;
-;         3 data inputs ; 19                          ;
-;         4 data inputs ; 51                          ;
+;         1 data inputs ; 11                          ;
+;         2 data inputs ; 15                          ;
+;         3 data inputs ; 36                          ;
+;         4 data inputs ; 89                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.73                        ;
+; Max LUT depth         ; 9.00                        ;
+; Average LUT depth     ; 3.51                        ;
 +-----------------------+-----------------------------+
 
 
@@ -268,7 +289,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Dec 13 16:39:01 2018
+    Info: Processing started: Thu Dec 13 16:52:12 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -297,11 +318,6 @@ Info (12128): Elaborating entity "table2segDecoder" for hierarchy "table2segDeco
 Warning (12125): Using design file remain_table.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: remain_table
 Info (12128): Elaborating entity "remain_table" for hierarchy "remain_table:Remain_Table"
-Warning (12125): Using design file dffmax.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: DFFMAX
-Info (12128): Elaborating entity "DFFMAX" for hierarchy "DFFMAX:inst"
-Warning (275013): Port "CLK" of type DFF and instance "inst70" is missing source signal
-Warning (275009): Pin "zz30" not connected
 Warning (12125): Using design file readd.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: READD
 Info (12128): Elaborating entity "READD" for hierarchy "READD:inst521"
@@ -312,22 +328,31 @@ Warning (275009): Pin "F5" not connected
 Warning (275009): Pin "G3" not connected
 Info (12128): Elaborating entity "7483" for hierarchy "READD:inst521|7483:inst1"
 Info (12130): Elaborated megafunction instantiation "READD:inst521|7483:inst1"
+Warning (12125): Using design file dffmax.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: DFFMAX
+Info (12128): Elaborating entity "DFFMAX" for hierarchy "DFFMAX:inst"
+Warning (275013): Port "CLK" of type DFF and instance "inst70" is missing source signal
+Warning (275009): Pin "zz30" not connected
+Info (13014): Ignored 7 buffer(s)
+    Info (13019): Ignored 7 SOFT buffer(s)
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "Display1g" is stuck at VCC
     Warning (13410): Pin "Display2b" is stuck at VCC
     Warning (13410): Pin "Display2c" is stuck at VCC
     Warning (13410): Pin "Display2g" is stuck at GND
+    Warning (13410): Pin "TotalPrice8" is stuck at VCC
+    Warning (13410): Pin "TotalPrice9" is stuck at VCC
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 220 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 311 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 18 input pins
-    Info (21059): Implemented 42 output pins
-    Info (21061): Implemented 160 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 4851 megabytes
-    Info: Processing ended: Thu Dec 13 16:39:16 2018
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:25
+    Info (21059): Implemented 51 output pins
+    Info (21061): Implemented 242 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
+    Info: Peak virtual memory: 4850 megabytes
+    Info: Processing ended: Thu Dec 13 16:52:23 2018
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:23
 
 

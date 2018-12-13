@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "12/12/2018 20:28:26"
+// Generated on "12/13/2018 16:55:24"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          AutomaticRestaurant
 // 
@@ -80,12 +80,25 @@ wire DoorDisplayRemain1;
 wire DoorDisplayRemain2;
 wire DoorDisplayRemain3;
 wire DoorDisplayRemain4;
-wire OpenerDisplay1;
-wire OpenerDisplay2;
-wire OpenerDisplay3;
-wire OpenerDisplay4;
+wire NumOfOrder2POS1;
+wire NumOfOrder2POS2;
+wire NumOfOrder2POS3;
+wire NumOfOrder2POS4;
+wire pin_name1;
+wire pin_name2;
+wire pin_name3;
+wire pin_name4;
 wire Random1;
 wire Random2;
+wire TotalPrice1;
+wire TotalPrice2;
+wire TotalPrice3;
+wire TotalPrice4;
+wire TotalPrice5;
+wire TotalPrice6;
+wire TotalPrice7;
+wire TotalPrice8;
+wire TotalPrice9;
 
 // assign statements (if any)                          
 AutomaticRestaurant i1 (
@@ -129,13 +142,17 @@ AutomaticRestaurant i1 (
 	.DoorMinusBTN(DoorMinusBTN),
 	.DoorPlusBTN(DoorPlusBTN),
 	.DoorResetBTN(DoorResetBTN),
-	.OpenerDisplay1(OpenerDisplay1),
-	.OpenerDisplay2(OpenerDisplay2),
-	.OpenerDisplay3(OpenerDisplay3),
-	.OpenerDisplay4(OpenerDisplay4),
+	.NumOfOrder2POS1(NumOfOrder2POS1),
+	.NumOfOrder2POS2(NumOfOrder2POS2),
+	.NumOfOrder2POS3(NumOfOrder2POS3),
+	.NumOfOrder2POS4(NumOfOrder2POS4),
 	.OpenerMinusBTN(OpenerMinusBTN),
 	.OpenerPlusBTN(OpenerPlusBTN),
 	.OpenerSendBTN(OpenerSendBTN),
+	.pin_name1(pin_name1),
+	.pin_name2(pin_name2),
+	.pin_name3(pin_name3),
+	.pin_name4(pin_name4),
 	.Random1(Random1),
 	.Random2(Random2),
 	.RandomGame_BTN(RandomGame_BTN),
@@ -145,7 +162,16 @@ AutomaticRestaurant i1 (
 	.table1(table1),
 	.table2(table2),
 	.table3(table3),
-	.take_order(take_order)
+	.take_order(take_order),
+	.TotalPrice1(TotalPrice1),
+	.TotalPrice2(TotalPrice2),
+	.TotalPrice3(TotalPrice3),
+	.TotalPrice4(TotalPrice4),
+	.TotalPrice5(TotalPrice5),
+	.TotalPrice6(TotalPrice6),
+	.TotalPrice7(TotalPrice7),
+	.TotalPrice8(TotalPrice8),
+	.TotalPrice9(TotalPrice9)
 );
 initial 
 begin 
@@ -182,15 +208,12 @@ end
 initial
 begin
 	DoorMinusBTN = 1'b0;
-	DoorMinusBTN = #150000 1'b1;
-	DoorMinusBTN = #70000 1'b0;
 end 
 
 // DoorPlusBTN
 initial
 begin
-	DoorPlusBTN = 1'b1;
-	DoorPlusBTN = #50000 1'b0;
+	DoorPlusBTN = 1'b0;
 end 
 
 // DoorResetBTN
@@ -221,18 +244,24 @@ end
 initial
 begin
 	RandomGame_BTN = 1'b0;
+	RandomGame_BTN = #30000 1'b1;
+	RandomGame_BTN = #60000 1'b0;
 end 
 
 // seed1
-initial
+always
 begin
 	seed1 = 1'b0;
+	seed1 = #5000 1'b1;
+	#5000;
 end 
 
 // seed2
-initial
+always
 begin
 	seed2 = 1'b0;
+	seed2 = #2500 1'b1;
+	#2500;
 end 
 
 // table0
