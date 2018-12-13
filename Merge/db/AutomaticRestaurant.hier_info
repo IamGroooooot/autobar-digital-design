@@ -1,23 +1,23 @@
 |AutomaticRestaurant
-Random1 <= Pseudo_rand_num_generator:inst.rndNum1
-seed1 => Pseudo_rand_num_generator:inst.input1
-seed2 => Pseudo_rand_num_generator:inst.input2
-RandomGame_BTN => Pseudo_rand_num_generator:inst.num_select_BTN
-CLK1 => Pseudo_rand_num_generator:inst.CLK1
+Random1 <= Pseudo_rand_num_generator:inst123.rndNum1
+seed1 => Pseudo_rand_num_generator:inst123.input1
+seed2 => Pseudo_rand_num_generator:inst123.input2
+RandomGame_BTN => Pseudo_rand_num_generator:inst123.num_select_BTN
+CLK1 => Pseudo_rand_num_generator:inst123.CLK1
 CLK1 => order_register:Order_Register.CLK
-Random2 <= Pseudo_rand_num_generator:inst.rndNum2
+Random2 <= Pseudo_rand_num_generator:inst123.rndNum2
 Display1a <= id7_segement_decoder:id2SegDecoder.a
-table0 => opener_remote_control:Opener_RemoteControl.table_num_input0bit
-table1 => opener_remote_control:Opener_RemoteControl.table_num_input1bit
-table2 => opener_remote_control:Opener_RemoteControl.table_num_input2bit
-table3 => opener_remote_control:Opener_RemoteControl.table_num_input3bit
-color_input0 => opener_remote_control:Opener_RemoteControl.color_input0bit
-color_input1 => opener_remote_control:Opener_RemoteControl.color_input1bit
-color_input2 => opener_remote_control:Opener_RemoteControl.color_input2bit
-OpenerPlusBTN => opener_remote_control:Opener_RemoteControl.plus_order_BTN
-OpenerMinusBTN => opener_remote_control:Opener_RemoteControl.minus_order_BTN
-OpenerSendBTN => opener_remote_control:Opener_RemoteControl.send_order_BTN
-take_order => opener_remote_control:Opener_RemoteControl.take_order
+table0 => test:OpenerRemoteCtrl.table_num_input0bit
+table1 => test:OpenerRemoteCtrl.table_num_input1bit
+table2 => test:OpenerRemoteCtrl.table_num_input2bit
+table3 => test:OpenerRemoteCtrl.table_num_input3bit
+color_input0 => test:OpenerRemoteCtrl.color_input0bit
+color_input1 => test:OpenerRemoteCtrl.color_input1bit
+color_input2 => test:OpenerRemoteCtrl.color_input2bit
+OpenerPlusBTN => test:OpenerRemoteCtrl.CLK
+OpenerMinusBTN => test:OpenerRemoteCtrl.plus_order_BTN
+OpenerSendBTN => test:OpenerRemoteCtrl.minus_order_BTN
+take_order => test:OpenerRemoteCtrl.send_order_BTN
 take_order => order_register:Order_Register.take_order
 Display1b <= id7_segement_decoder:id2SegDecoder.b
 Display1c <= id7_segement_decoder:id2SegDecoder.c
@@ -46,10 +46,6 @@ Display2k <= table2segDecoder:table2SegDecoder.k_seg2
 Display2l <= table2segDecoder:table2SegDecoder.l_seg2
 Display2m <= table2segDecoder:table2SegDecoder.m_seg2
 Display2n <= table2segDecoder:table2SegDecoder.n_seg2
-OpenerDisplay1 <= opener_remote_control:Opener_RemoteControl.opener_output0bit
-OpenerDisplay2 <= opener_remote_control:Opener_RemoteControl.opener_output1bit
-OpenerDisplay3 <= opener_remote_control:Opener_RemoteControl.opener_output2bit
-OpenerDisplay4 <= opener_remote_control:Opener_RemoteControl.opener_output3bit
 DoorDisplayRemain1 <= remain_table:Remain_Table.remain_table0bit
 DoorPlusBTN => remain_table:Remain_Table.minus_BTN
 DoorMinusBTN => remain_table:Remain_Table.plus_BTN
@@ -61,9 +57,13 @@ NumOfOrder2POS1 <= order_register:Order_Register.order_output0bit
 NumOfOrder2POS2 <= order_register:Order_Register.order_output1bit
 NumOfOrder2POS3 <= order_register:Order_Register.order_output2bit
 NumOfOrder2POS4 <= order_register:Order_Register.order_output3bit
+pin_name1 <= test:OpenerRemoteCtrl.opener_output0bit
+pin_name2 <= test:OpenerRemoteCtrl.opener_output1bit
+pin_name3 <= test:OpenerRemoteCtrl.opener_output2bit
+pin_name4 <= test:OpenerRemoteCtrl.opener_output3bit
 
 
-|AutomaticRestaurant|Pseudo_rand_num_generator:inst
+|AutomaticRestaurant|Pseudo_rand_num_generator:inst123
 rndNum1 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 num_select_BTN => inst20.CLK
 num_select_BTN => inst21.CLK
@@ -173,13 +173,16 @@ color_output1bit <= inst88.DB_MAX_OUTPUT_PORT_TYPE
 color_output2bit <= inst89.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|opener_remote_control:Opener_RemoteControl
-order_output0bit <= inst32.DB_MAX_OUTPUT_PORT_TYPE
-take_order => inst29.IN0
+|AutomaticRestaurant|test:OpenerRemoteCtrl
+table_num_output0bit <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst53.CLK
+CLK => inst51.CLK
+CLK => inst52.CLK
+CLK => inst50.CLK
 send_order_BTN => inst32.CLK
 send_order_BTN => inst27.IN0
-send_order_BTN => inst33.CLK
 send_order_BTN => inst34.CLK
+send_order_BTN => inst33.CLK
 send_order_BTN => inst35.CLK
 send_order_BTN => inst42.CLK
 send_order_BTN => inst43.CLK
@@ -196,10 +199,6 @@ minus_order_BTN => inst26.IN1
 minus_order_BTN => inst23.IN0
 minus_order_BTN => inst14.IN1
 minus_order_BTN => inst123.IN0
-order_output1bit <= inst33.DB_MAX_OUTPUT_PORT_TYPE
-order_output2bit <= inst34.DB_MAX_OUTPUT_PORT_TYPE
-order_output3bit <= inst35.DB_MAX_OUTPUT_PORT_TYPE
-table_num_output0bit <= inst42.DB_MAX_OUTPUT_PORT_TYPE
 table_num_input0bit => inst46.DATAIN
 table_num_output1bit <= inst43.DB_MAX_OUTPUT_PORT_TYPE
 table_num_input1bit => inst47.DATAIN
@@ -217,6 +216,10 @@ color_output1bit <= inst40.DB_MAX_OUTPUT_PORT_TYPE
 color_input1bit => inst37.DATAIN
 color_output2bit <= inst41.DB_MAX_OUTPUT_PORT_TYPE
 color_input2bit => inst38.DATAIN
+order_output0bit <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+order_output1bit <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+order_output2bit <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+order_output3bit <= inst35.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |AutomaticRestaurant|table2segDecoder:table2SegDecoder
@@ -279,5 +282,462 @@ plus_BTN => inst14.IN1
 remain_table1bit <= subtract1bit.DB_MAX_OUTPUT_PORT_TYPE
 remain_table2bit <= subtract2bit.DB_MAX_OUTPUT_PORT_TYPE
 remain_table3bit <= subtract3bit.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|DFFMAX:inst
+pin_name12 <= inst65.DB_MAX_OUTPUT_PORT_TYPE
+zz1 => inst65.CLK
+pin_name1 => inst65.DATAIN
+pin_name13 <= inst58.DB_MAX_OUTPUT_PORT_TYPE
+zz2 => inst58.CLK
+pin_name2 => inst58.DATAIN
+pin_name15 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+zz5 => inst51.CLK
+pin_name5 => inst51.DATAIN
+pin_name16 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+zz6 => inst50.CLK
+pin_name6 => inst50.DATAIN
+pin_name17 <= inst59.DB_MAX_OUTPUT_PORT_TYPE
+zz4 => inst59.CLK
+pin_name4 => inst59.DATAIN
+pin_name18 <= inst62.DB_MAX_OUTPUT_PORT_TYPE
+zz7 => inst62.CLK
+pin_name7 => inst62.DATAIN
+pin_name19 <= inst60.DB_MAX_OUTPUT_PORT_TYPE
+zz8 => inst60.CLK
+pin_name8 => inst60.DATAIN
+pin_name20 <= inst61.DB_MAX_OUTPUT_PORT_TYPE
+zz9 => inst61.CLK
+pin_name9 => inst61.DATAIN
+pin_name21 <= inst63.DB_MAX_OUTPUT_PORT_TYPE
+zz10 => inst63.CLK
+pin_name10 => inst63.DATAIN
+pin_name22 <= inst64.DB_MAX_OUTPUT_PORT_TYPE
+zz11 => inst64.CLK
+pin_name11 => inst64.DATAIN
+pin_name23 <= inst66.DB_MAX_OUTPUT_PORT_TYPE
+zz14 => inst66.CLK
+pin_name14 => inst66.DATAIN
+pin_name25 <= inst67.DB_MAX_OUTPUT_PORT_TYPE
+zz24 => inst67.CLK
+pin_name24 => inst67.DATAIN
+pin_name31 <= inst71.DB_MAX_OUTPUT_PORT_TYPE
+zz3 => inst71.CLK
+pin_name3 => inst71.DATAIN
+pin_name32 <= inst68.DB_MAX_OUTPUT_PORT_TYPE
+zz26 => inst68.CLK
+pin_name26 => inst68.DATAIN
+pin_name33 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+zz28 => inst53.CLK
+pin_name28 => inst53.DATAIN
+pin_name34 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+zz29 => inst52.CLK
+pin_name29 => inst52.DATAIN
+pin_name35 <= inst69.DB_MAX_OUTPUT_PORT_TYPE
+zz27 => inst69.CLK
+pin_name27 => inst69.DATAIN
+pin_name36 <= inst70.DB_MAX_OUTPUT_PORT_TYPE
+pin_name30 => inst70.DATAIN
+pin_name38 <= inst72.DB_MAX_OUTPUT_PORT_TYPE
+zz37 => inst72.CLK
+pin_name37 => inst72.DATAIN
+pin_name40 <= inst73.DB_MAX_OUTPUT_PORT_TYPE
+zz39 => inst73.CLK
+pin_name39 => inst73.DATAIN
+pin_name42 <= inst74.DB_MAX_OUTPUT_PORT_TYPE
+zz41 => inst74.CLK
+pin_name41 => inst74.DATAIN
+pin_name44 <= inst75.DB_MAX_OUTPUT_PORT_TYPE
+zz43 => inst75.CLK
+pin_name43 => inst75.DATAIN
+pin_name46 <= inst76.DB_MAX_OUTPUT_PORT_TYPE
+zz45 => inst76.CLK
+pin_name45 => inst76.DATAIN
+pin_name48 <= inst77.DB_MAX_OUTPUT_PORT_TYPE
+zz47 => inst77.CLK
+pin_name47 => inst77.DATAIN
+pin_name51 <= inst79.DB_MAX_OUTPUT_PORT_TYPE
+zz49 => inst79.CLK
+pin_name49 => inst79.DATAIN
+pin_name52 <= inst78.DB_MAX_OUTPUT_PORT_TYPE
+zz50 => inst78.CLK
+pin_name50 => inst78.DATAIN
+pin_name54 <= inst80.DB_MAX_OUTPUT_PORT_TYPE
+zz53 => inst80.CLK
+pin_name53 => inst80.DATAIN
+pin_name56 <= inst81.DB_MAX_OUTPUT_PORT_TYPE
+zz55 => inst81.CLK
+pin_name55 => inst81.DATAIN
+zz30 => ~NO_FANOUT~
+
+
+|AutomaticRestaurant|READD:inst521
+pin_name18 <= 7483:inst1.C4
+B8 => 7483:inst1.B4
+B4 => 7483:inst.B4
+A0 => 7483:inst.C0
+A1 => 7483:inst.A1
+A2 => 7483:inst.A2
+B1 => 7483:inst.B1
+B2 => 7483:inst.B2
+A3 => 7483:inst.A3
+B3 => 7483:inst.B3
+A4 => 7483:inst.A4
+A5 => 7483:inst1.A1
+A6 => 7483:inst1.A2
+B5 => 7483:inst1.B1
+B6 => 7483:inst1.B2
+A7 => 7483:inst1.A3
+B7 => 7483:inst1.B3
+A8 => 7483:inst1.A4
+Z1 <= 7483:inst12.S1
+G4 => 7483:inst12.B4
+F4 => 7483:inst9.B4
+E4 => 7483:inst7.B4
+D4 => 7483:inst5.B4
+C4 => 7483:inst3.B4
+C1 => 7483:inst3.B1
+C2 => 7483:inst3.B2
+C3 => 7483:inst3.B3
+D1 => 7483:inst5.B1
+D2 => 7483:inst5.B2
+E1 => 7483:inst7.B1
+E3 => 7483:inst7.B3
+F1 => 7483:inst9.B1
+F2 => 7483:inst9.B2
+F3 => 7483:inst9.B3
+G1 => 7483:inst12.B1
+G2 => 7483:inst12.B2
+Z2 <= 7483:inst12.S2
+Z3 <= 7483:inst12.S3
+Z4 <= 7483:inst12.S4
+Z5 <= 7483:inst13.S1
+G8 => 7483:inst13.B4
+F8 => 7483:inst10.B4
+E8 => 7483:inst8.B4
+D8 => 7483:inst6.B4
+C8 => 7483:inst4.B4
+C5 => 7483:inst4.B1
+C6 => 7483:inst4.B2
+C7 => 7483:inst4.B3
+D5 => 7483:inst6.B1
+D6 => 7483:inst6.B2
+D7 => 7483:inst6.B3
+E5 => 7483:inst8.B1
+E6 => 7483:inst8.B2
+E7 => 7483:inst8.B3
+F6 => 7483:inst10.B2
+F7 => 7483:inst10.B3
+G5 => 7483:inst13.B1
+G6 => 7483:inst13.B2
+G7 => 7483:inst13.B3
+Z6 <= 7483:inst13.S2
+Z7 <= 7483:inst13.S3
+Z8 <= 7483:inst13.S4
+Z9 <= 7483:inst13.C4
+D3 => ~NO_FANOUT~
+E2 => ~NO_FANOUT~
+F5 => ~NO_FANOUT~
+G3 => ~NO_FANOUT~
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst1
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst12
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst9
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst7
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst5
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst3
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst13
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst10
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst8
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst6
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AutomaticRestaurant|READD:inst521|7483:inst4
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 

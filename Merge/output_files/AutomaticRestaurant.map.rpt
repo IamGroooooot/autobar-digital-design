@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AutomaticRestaurant
-Wed Dec 12 20:58:14 2018
+Thu Dec 13 16:39:16 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,15 +42,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Dec 12 20:58:14 2018       ;
+; Analysis & Synthesis Status        ; Successful - Thu Dec 13 16:39:16 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AutomaticRestaurant                         ;
 ; Top-level Entity Name              ; AutomaticRestaurant                         ;
 ; Family                             ; Cyclone IV GX                               ;
-; Total logic elements               ; 155                                         ;
-;     Total combinational functions  ; 83                                          ;
-;     Dedicated logic registers      ; 82                                          ;
-; Total registers                    ; 82                                          ;
+; Total logic elements               ; 160                                         ;
+;     Total combinational functions  ; 84                                          ;
+;     Dedicated logic registers      ; 86                                          ;
+; Total registers                    ; 86                                          ;
 ; Total pins                         ; 60                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -153,7 +153,7 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
+; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -166,19 +166,22 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                      ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                      ; Library ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------+---------+
-; AutomaticRestaurant.bdf          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/CAUCSE/Desktop/LogicCircuit_DemoVer1/Merge/AutomaticRestaurant.bdf       ;         ;
-; pseudo_rand_num_generator.bdf    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/LogicCircuit_DemoVer1/Merge/pseudo_rand_num_generator.bdf ;         ;
-; id7_segement_decoder.bdf         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/LogicCircuit_DemoVer1/Merge/id7_segement_decoder.bdf      ;         ;
-; order_register.bdf               ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/LogicCircuit_DemoVer1/Merge/order_register.bdf            ;         ;
-; opener_remote_control.bdf        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/LogicCircuit_DemoVer1/Merge/opener_remote_control.bdf     ;         ;
-; table2segdecoder.bdf             ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/LogicCircuit_DemoVer1/Merge/table2segdecoder.bdf          ;         ;
-; remain_table.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/LogicCircuit_DemoVer1/Merge/remain_table.bdf              ;         ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                            ; Library ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
+; AutomaticRestaurant.bdf          ; yes             ; User Block Diagram/Schematic File        ; D:/nam/AutoBar_DigitalDesign-master/Merge/AutomaticRestaurant.bdf       ;         ;
+; pseudo_rand_num_generator.bdf    ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/pseudo_rand_num_generator.bdf ;         ;
+; id7_segement_decoder.bdf         ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/id7_segement_decoder.bdf      ;         ;
+; order_register.bdf               ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/order_register.bdf            ;         ;
+; test.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/test.bdf                      ;         ;
+; table2segdecoder.bdf             ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/table2segdecoder.bdf          ;         ;
+; remain_table.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/remain_table.bdf              ;         ;
+; dffmax.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/dffmax.bdf                    ;         ;
+; readd.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/readd.bdf                     ;         ;
+; 7483.bdf                         ; yes             ; Megafunction                             ; d:/intelfpga_lite/18.1/quartus/libraries/others/maxplus2/7483.bdf       ;         ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -191,25 +194,25 @@ refer to the applicable agreement for further details.
 ; DSP block 9-bit elements ; 0                ;
 ;                          ;                  ;
 ; Maximum fan-out node     ; take_order~input ;
-; Maximum fan-out          ; 22               ;
-; Total fan-out            ; 608              ;
-; Average fan-out          ; 2.13             ;
+; Maximum fan-out          ; 26               ;
+; Total fan-out            ; 620              ;
+; Average fan-out          ; 2.14             ;
 +--------------------------+------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                 ;
-+-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+---------------------------+--------------+
-; Compilation Hierarchy Node                      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                             ; Entity Name               ; Library Name ;
-+-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+---------------------------+--------------+
-; |AutomaticRestaurant                            ; 83 (0)              ; 82 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 60   ; 0            ; |AutomaticRestaurant                                            ; AutomaticRestaurant       ; work         ;
-;    |Pseudo_rand_num_generator:inst|             ; 2 (2)               ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|Pseudo_rand_num_generator:inst             ; Pseudo_rand_num_generator ; work         ;
-;    |id7_segement_decoder:id2SegDecoder|         ; 10 (10)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|id7_segement_decoder:id2SegDecoder         ; id7_segement_decoder      ; work         ;
-;    |opener_remote_control:Opener_RemoteControl| ; 8 (8)               ; 22 (22)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|opener_remote_control:Opener_RemoteControl ; opener_remote_control     ; work         ;
-;    |order_register:Order_Register|              ; 48 (48)             ; 44 (44)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|order_register:Order_Register              ; order_register            ; work         ;
-;    |remain_table:Remain_Table|                  ; 7 (7)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|remain_table:Remain_Table                  ; remain_table              ; work         ;
-;    |table2segDecoder:table2SegDecoder|          ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|table2segDecoder:table2SegDecoder          ; table2segDecoder          ; work         ;
-+-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+---------------------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                 ;
++-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------+---------------------------+--------------+
+; Compilation Hierarchy Node              ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                     ; Entity Name               ; Library Name ;
++-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------+---------------------------+--------------+
+; |AutomaticRestaurant                    ; 84 (0)              ; 86 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 60   ; 0            ; |AutomaticRestaurant                                    ; AutomaticRestaurant       ; work         ;
+;    |Pseudo_rand_num_generator:inst123|  ; 2 (2)               ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|Pseudo_rand_num_generator:inst123  ; Pseudo_rand_num_generator ; work         ;
+;    |id7_segement_decoder:id2SegDecoder| ; 10 (10)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|id7_segement_decoder:id2SegDecoder ; id7_segement_decoder      ; work         ;
+;    |order_register:Order_Register|      ; 48 (48)             ; 44 (44)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|order_register:Order_Register      ; order_register            ; work         ;
+;    |remain_table:Remain_Table|          ; 7 (7)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|remain_table:Remain_Table          ; remain_table              ; work         ;
+;    |table2segDecoder:table2SegDecoder|  ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|table2segDecoder:table2SegDecoder  ; table2segDecoder          ; work         ;
+;    |test:OpenerRemoteCtrl|              ; 9 (9)               ; 26 (26)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|test:OpenerRemoteCtrl              ; test                      ; work         ;
++-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------+---------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -218,7 +221,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 82    ;
+; Total registers                              ; 86    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 63    ;
@@ -234,19 +237,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 60                          ;
-; cycloneiii_ff         ; 82                          ;
+; cycloneiii_ff         ; 86                          ;
 ;     CLR               ; 63                          ;
-;     plain             ; 19                          ;
-; cycloneiii_lcell_comb ; 90                          ;
-;     normal            ; 90                          ;
+;     plain             ; 23                          ;
+; cycloneiii_lcell_comb ; 91                          ;
+;     normal            ; 91                          ;
 ;         0 data inputs ; 2                           ;
 ;         1 data inputs ; 7                           ;
 ;         2 data inputs ; 12                          ;
 ;         3 data inputs ; 19                          ;
-;         4 data inputs ; 50                          ;
+;         4 data inputs ; 51                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.75                        ;
+; Average LUT depth     ; 1.73                        ;
 +-----------------------+-----------------------------+
 
 
@@ -265,31 +268,50 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Dec 12 20:58:00 2018
+    Info: Processing started: Thu Dec 13 16:39:01 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file automaticrestaurant.bdf
     Info (12023): Found entity 1: AutomaticRestaurant
 Info (12127): Elaborating entity "AutomaticRestaurant" for the top level hierarchy
+Warning (275011): Block or symbol "NOT" of instance "inst5" overlaps another block or symbol
+Warning (275011): Block or symbol "NOT" of instance "inst8" overlaps another block or symbol
+Warning (275011): Block or symbol "NOT" of instance "inst9" overlaps another block or symbol
+Warning (275011): Block or symbol "NOT" of instance "inst12" overlaps another block or symbol
 Warning (12125): Using design file pseudo_rand_num_generator.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: Pseudo_rand_num_generator
-Info (12128): Elaborating entity "Pseudo_rand_num_generator" for hierarchy "Pseudo_rand_num_generator:inst"
+Info (12128): Elaborating entity "Pseudo_rand_num_generator" for hierarchy "Pseudo_rand_num_generator:inst123"
 Warning (12125): Using design file id7_segement_decoder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: id7_segement_decoder
 Info (12128): Elaborating entity "id7_segement_decoder" for hierarchy "id7_segement_decoder:id2SegDecoder"
 Warning (12125): Using design file order_register.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: order_register
 Info (12128): Elaborating entity "order_register" for hierarchy "order_register:Order_Register"
-Warning (12125): Using design file opener_remote_control.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: opener_remote_control
-Info (12128): Elaborating entity "opener_remote_control" for hierarchy "opener_remote_control:Opener_RemoteControl"
+Warning (12125): Using design file test.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: test
+Info (12128): Elaborating entity "test" for hierarchy "test:OpenerRemoteCtrl"
 Warning (12125): Using design file table2segdecoder.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: table2segDecoder
 Info (12128): Elaborating entity "table2segDecoder" for hierarchy "table2segDecoder:table2SegDecoder"
 Warning (12125): Using design file remain_table.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: remain_table
 Info (12128): Elaborating entity "remain_table" for hierarchy "remain_table:Remain_Table"
+Warning (12125): Using design file dffmax.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: DFFMAX
+Info (12128): Elaborating entity "DFFMAX" for hierarchy "DFFMAX:inst"
+Warning (275013): Port "CLK" of type DFF and instance "inst70" is missing source signal
+Warning (275009): Pin "zz30" not connected
+Warning (12125): Using design file readd.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: READD
+Info (12128): Elaborating entity "READD" for hierarchy "READD:inst521"
+Warning (275011): Block or symbol "7483" of instance "inst5" overlaps another block or symbol
+Warning (275009): Pin "D3" not connected
+Warning (275009): Pin "E2" not connected
+Warning (275009): Pin "F5" not connected
+Warning (275009): Pin "G3" not connected
+Info (12128): Elaborating entity "7483" for hierarchy "READD:inst521|7483:inst1"
+Info (12130): Elaborated megafunction instantiation "READD:inst521|7483:inst1"
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "Display1g" is stuck at VCC
     Warning (13410): Pin "Display2b" is stuck at VCC
@@ -298,14 +320,14 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 215 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 220 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 18 input pins
     Info (21059): Implemented 42 output pins
-    Info (21061): Implemented 155 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 694 megabytes
-    Info: Processing ended: Wed Dec 12 20:58:14 2018
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:27
+    Info (21061): Implemented 160 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 4851 megabytes
+    Info: Processing ended: Thu Dec 13 16:39:16 2018
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:25
 
 

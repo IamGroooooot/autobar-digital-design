@@ -21,7 +21,7 @@ refer to the applicable agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 328 304)
-	(text "opener_remote_control" (rect 5 0 143 19)(font "Intel Clear" (font_size 8)))
+	(text "test" (rect 5 0 27 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 267 24 284)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
@@ -75,29 +75,29 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 144)
 		(input)
-		(text "plus_order_BTN" (rect 0 0 96 19)(font "Intel Clear" (font_size 8)))
-		(text "plus_order_BTN" (rect 21 139 117 158)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 139 44 158)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 144)(pt 16 144))
 	)
 	(port
 		(pt 0 160)
 		(input)
-		(text "minus_order_BTN" (rect 0 0 107 19)(font "Intel Clear" (font_size 8)))
-		(text "minus_order_BTN" (rect 21 155 128 174)(font "Intel Clear" (font_size 8)))
+		(text "plus_order_BTN" (rect 0 0 96 19)(font "Intel Clear" (font_size 8)))
+		(text "plus_order_BTN" (rect 21 155 117 174)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 160)(pt 16 160))
 	)
 	(port
 		(pt 0 176)
 		(input)
-		(text "send_order_BTN" (rect 0 0 100 19)(font "Intel Clear" (font_size 8)))
-		(text "send_order_BTN" (rect 21 171 121 190)(font "Intel Clear" (font_size 8)))
+		(text "minus_order_BTN" (rect 0 0 107 19)(font "Intel Clear" (font_size 8)))
+		(text "minus_order_BTN" (rect 21 171 128 190)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 176)(pt 16 176))
 	)
 	(port
 		(pt 0 192)
 		(input)
-		(text "take_order" (rect 0 0 64 19)(font "Intel Clear" (font_size 8)))
-		(text "take_order" (rect 21 187 85 206)(font "Intel Clear" (font_size 8)))
+		(text "send_order_BTN" (rect 0 0 100 19)(font "Intel Clear" (font_size 8)))
+		(text "send_order_BTN" (rect 21 187 121 206)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 192)(pt 16 192))
 	)
 	(port

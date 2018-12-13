@@ -1,5 +1,5 @@
 Flow report for AutomaticRestaurant
-Wed Dec 12 20:58:36 2018
+Thu Dec 13 16:39:45 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Dec 12 20:58:31 2018       ;
+; Flow Status                        ; Successful - Thu Dec 13 16:39:40 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AutomaticRestaurant                         ;
 ; Top-level Entity Name              ; AutomaticRestaurant                         ;
 ; Family                             ; Cyclone IV GX                               ;
-; Total logic elements               ; 159 / 21,280 ( < 1 % )                      ;
-;     Total combinational functions  ; 83 / 21,280 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 82 / 21,280 ( < 1 % )                       ;
-; Total registers                    ; 82                                          ;
+; Total logic elements               ; 163 / 21,280 ( < 1 % )                      ;
+;     Total combinational functions  ; 84 / 21,280 ( < 1 % )                       ;
+;     Dedicated logic registers      ; 86 / 21,280 ( < 1 % )                       ;
+; Total registers                    ; 86                                          ;
 ; Total pins                         ; 60 / 167 ( 36 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 774,144 ( 0 % )                         ;
@@ -68,7 +68,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/12/2018 20:58:01 ;
+; Start date & time ; 12/13/2018 16:39:02 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; AutomaticRestaurant ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 40637552546997.154461588001120         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 93328253222477.154468674216044         ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -92,24 +92,24 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 694 MB              ; 00:00:26                           ;
-; Fitter               ; 00:00:11     ; 1.0                     ; 1419 MB             ; 00:00:12                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 614 MB              ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 621 MB              ; 00:00:03                           ;
-; Total                ; 00:00:29     ; --                      ; --                  ; 00:00:42                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4851 MB             ; 00:00:25                           ;
+; Fitter               ; 00:00:17     ; 1.0                     ; 5624 MB             ; 00:00:12                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4765 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 4784 MB             ; 00:00:03                           ;
+; Total                ; 00:00:35     ; --                      ; --                  ; 00:00:41                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Flow OS Summary                                                                   ;
-+----------------------+------------------+-----------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; CAUCSE-PC        ; Windows 7 ; 6.1        ; x86_64         ;
-; Fitter               ; CAUCSE-PC        ; Windows 7 ; 6.1        ; x86_64         ;
-; Assembler            ; CAUCSE-PC        ; Windows 7 ; 6.1        ; x86_64         ;
-; Timing Analyzer      ; CAUCSE-PC        ; Windows 7 ; 6.1        ; x86_64         ;
-+----------------------+------------------+-----------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-2RO51IS  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
