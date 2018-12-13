@@ -1,22 +1,22 @@
 # do AutomaticRestaurant.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:55:29 on Dec 13,2018
+# Start time: 17:25:46 on Dec 13,2018
 # vlog -work work AutomaticRestaurant.vo 
 # -- Compiling module AutomaticRestaurant
 # -- Compiling module hard_block
 # 
 # Top level modules:
 # 	AutomaticRestaurant
-# End time: 16:55:30 on Dec 13,2018, Elapsed time: 0:00:01
+# End time: 17:25:46 on Dec 13,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:55:30 on Dec 13,2018
-# vlog -work work Waveform1.vwf.vt 
+# Start time: 17:25:46 on Dec 13,2018
+# vlog -work work Waveform4.vwf.vt 
 # -- Compiling module AutomaticRestaurant_vlg_vec_tst
 # 
 # Top level modules:
 # 	AutomaticRestaurant_vlg_vec_tst
-# End time: 16:55:30 on Dec 13,2018, Elapsed time: 0:00:00
+# End time: 17:25:46 on Dec 13,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # after#1

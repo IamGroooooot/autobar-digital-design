@@ -1,5 +1,5 @@
 EDA Netlist Writer report for AutomaticRestaurant
-Thu Dec 13 16:55:26 2018
+Thu Dec 13 17:25:45 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Dec 13 16:55:26 2018 ;
+; EDA Netlist Writer Status ; Successful - Thu Dec 13 17:25:45 2018 ;
 ; Revision Name             ; AutomaticRestaurant                   ;
 ; Top-level Entity Name     ; AutomaticRestaurant                   ;
 ; Family                    ; Cyclone IV GX                         ;
@@ -50,7 +50,8 @@ refer to the applicable agreement for further details.
 ; Option                                                                                            ; Setting                   ;
 +---------------------------------------------------------------------------------------------------+---------------------------+
 ; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate functional simulation netlist                                                            ; On                        ;
+; Generate functional simulation netlist                                                            ; Off                       ;
+; Time scale                                                                                        ; 1 ps                      ;
 ; Truncate long hierarchy paths                                                                     ; Off                       ;
 ; Map illegal HDL characters                                                                        ; Off                       ;
 ; Flatten buses into individual nodes                                                               ; Off                       ;
@@ -65,13 +66,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Simulation Generated Files                                                        ;
-+-----------------------------------------------------------------------------------+
-; Generated Files                                                                   ;
-+-----------------------------------------------------------------------------------+
-; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant.vo ;
-+-----------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                              ;
++---------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                         ;
++---------------------------------------------------------------------------------------------------------+
+; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant_6_1200mv_85c_slow.vo     ;
+; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant_6_1200mv_0c_slow.vo      ;
+; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant_min_1200mv_0c_fast.vo    ;
+; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant.vo                       ;
+; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant_6_1200mv_85c_v_slow.sdo  ;
+; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant_6_1200mv_0c_v_slow.sdo   ;
+; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant_min_1200mv_0c_v_fast.sdo ;
+; D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//AutomaticRestaurant_v.sdo                    ;
++---------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -93,13 +101,20 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Thu Dec 13 16:55:25 2018
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/ AutomaticRestaurant -c AutomaticRestaurant
+    Info: Processing started: Thu Dec 13 17:25:44 2018
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim/ AutomaticRestaurant -c AutomaticRestaurant
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file AutomaticRestaurant_6_1200mv_85c_slow.vo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file AutomaticRestaurant_6_1200mv_0c_slow.vo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file AutomaticRestaurant_min_1200mv_0c_fast.vo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
 Info (204019): Generated file AutomaticRestaurant.vo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file AutomaticRestaurant_6_1200mv_85c_v_slow.sdo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file AutomaticRestaurant_6_1200mv_0c_v_slow.sdo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file AutomaticRestaurant_min_1200mv_0c_v_fast.sdo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file AutomaticRestaurant_v.sdo in folder "D:/nam/AutoBar_DigitalDesign-master/Merge/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4721 megabytes
-    Info: Processing ended: Thu Dec 13 16:55:26 2018
+    Info: Peak virtual memory: 4731 megabytes
+    Info: Processing ended: Thu Dec 13 17:25:45 2018
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

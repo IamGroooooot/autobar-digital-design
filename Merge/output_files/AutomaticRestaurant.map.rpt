@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AutomaticRestaurant
-Thu Dec 13 16:52:23 2018
+Thu Dec 13 17:10:16 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Dec 13 16:52:23 2018       ;
+; Analysis & Synthesis Status        ; Successful - Thu Dec 13 17:10:16 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AutomaticRestaurant                         ;
 ; Top-level Entity Name              ; AutomaticRestaurant                         ;
@@ -162,7 +162,8 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -193,7 +194,7 @@ refer to the applicable agreement for further details.
 ;                          ;                  ;
 ; DSP block 9-bit elements ; 0                ;
 ;                          ;                  ;
-; Maximum fan-out node     ; take_order~input ;
+; Maximum fan-out node     ; CLK1~input       ;
 ; Maximum fan-out          ; 26               ;
 ; Total fan-out            ; 891              ;
 ; Average fan-out          ; 2.28             ;
@@ -206,18 +207,18 @@ refer to the applicable agreement for further details.
 ; Compilation Hierarchy Node              ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                     ; Entity Name               ; Library Name ;
 +-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------+---------------------------+--------------+
 ; |AutomaticRestaurant                    ; 142 (7)             ; 110 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 69   ; 0            ; |AutomaticRestaurant                                    ; AutomaticRestaurant       ; work         ;
-;    |DFFMAX:inst|                        ; 0 (0)               ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|DFFMAX:inst                        ; DFFMAX                    ; work         ;
+;    |DFFMAX:DFF_SET|                     ; 0 (0)               ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|DFFMAX:DFF_SET                     ; DFFMAX                    ; work         ;
 ;    |Pseudo_rand_num_generator:inst123|  ; 2 (2)               ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|Pseudo_rand_num_generator:inst123  ; Pseudo_rand_num_generator ; work         ;
-;    |READD:inst521|                      ; 53 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521                      ; READD                     ; work         ;
-;       |7483:inst10|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst10          ; 7483                      ; work         ;
-;       |7483:inst12|                     ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst12          ; 7483                      ; work         ;
-;       |7483:inst13|                     ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst13          ; 7483                      ; work         ;
-;       |7483:inst3|                      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst3           ; 7483                      ; work         ;
-;       |7483:inst5|                      ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst5           ; 7483                      ; work         ;
-;       |7483:inst7|                      ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst7           ; 7483                      ; work         ;
-;       |7483:inst8|                      ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst8           ; 7483                      ; work         ;
-;       |7483:inst9|                      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst9           ; 7483                      ; work         ;
-;       |7483:inst|                       ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:inst521|7483:inst            ; 7483                      ; work         ;
+;    |READD:Re_Adder|                     ; 53 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder                     ; READD                     ; work         ;
+;       |7483:inst10|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst10         ; 7483                      ; work         ;
+;       |7483:inst12|                     ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst12         ; 7483                      ; work         ;
+;       |7483:inst13|                     ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst13         ; 7483                      ; work         ;
+;       |7483:inst3|                      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst3          ; 7483                      ; work         ;
+;       |7483:inst5|                      ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst5          ; 7483                      ; work         ;
+;       |7483:inst7|                      ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst7          ; 7483                      ; work         ;
+;       |7483:inst8|                      ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst8          ; 7483                      ; work         ;
+;       |7483:inst9|                      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst9          ; 7483                      ; work         ;
+;       |7483:inst|                       ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|READD:Re_Adder|7483:inst           ; 7483                      ; work         ;
 ;    |id7_segement_decoder:id2SegDecoder| ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|id7_segement_decoder:id2SegDecoder ; id7_segement_decoder      ; work         ;
 ;    |order_register:Order_Register|      ; 48 (48)             ; 44 (44)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|order_register:Order_Register      ; order_register            ; work         ;
 ;    |remain_table:Remain_Table|          ; 7 (7)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |AutomaticRestaurant|remain_table:Remain_Table          ; remain_table              ; work         ;
@@ -232,7 +233,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------+--------------------------------------+
 ; Register name                         ; Reason for Removal                   ;
 +---------------------------------------+--------------------------------------+
-; DFFMAX:inst|inst70                    ; Stuck at GND due to stuck port clock ;
+; DFFMAX:DFF_SET|inst70                 ; Stuck at GND due to stuck port clock ;
 ; Total Number of Removed Registers = 1 ;                                      ;
 +---------------------------------------+--------------------------------------+
 
@@ -289,7 +290,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Dec 13 16:52:12 2018
+    Info: Processing started: Thu Dec 13 17:10:03 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -320,17 +321,17 @@ Warning (12125): Using design file remain_table.bdf, which is not specified as a
 Info (12128): Elaborating entity "remain_table" for hierarchy "remain_table:Remain_Table"
 Warning (12125): Using design file readd.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: READD
-Info (12128): Elaborating entity "READD" for hierarchy "READD:inst521"
+Info (12128): Elaborating entity "READD" for hierarchy "READD:Re_Adder"
 Warning (275011): Block or symbol "7483" of instance "inst5" overlaps another block or symbol
 Warning (275009): Pin "D3" not connected
 Warning (275009): Pin "E2" not connected
 Warning (275009): Pin "F5" not connected
 Warning (275009): Pin "G3" not connected
-Info (12128): Elaborating entity "7483" for hierarchy "READD:inst521|7483:inst1"
-Info (12130): Elaborated megafunction instantiation "READD:inst521|7483:inst1"
+Info (12128): Elaborating entity "7483" for hierarchy "READD:Re_Adder|7483:inst1"
+Info (12130): Elaborated megafunction instantiation "READD:Re_Adder|7483:inst1"
 Warning (12125): Using design file dffmax.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: DFFMAX
-Info (12128): Elaborating entity "DFFMAX" for hierarchy "DFFMAX:inst"
+Info (12128): Elaborating entity "DFFMAX" for hierarchy "DFFMAX:DFF_SET"
 Warning (275013): Port "CLK" of type DFF and instance "inst70" is missing source signal
 Warning (275009): Pin "zz30" not connected
 Info (13014): Ignored 7 buffer(s)
@@ -350,9 +351,9 @@ Info (21057): Implemented 311 device resources after synthesis - the final resou
     Info (21059): Implemented 51 output pins
     Info (21061): Implemented 242 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
-    Info: Peak virtual memory: 4850 megabytes
-    Info: Processing ended: Thu Dec 13 16:52:23 2018
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 4865 megabytes
+    Info: Processing ended: Thu Dec 13 17:10:16 2018
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:27
 
 

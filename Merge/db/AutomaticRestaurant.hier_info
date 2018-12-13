@@ -5,6 +5,7 @@ seed2 => Pseudo_rand_num_generator:inst123.input2
 RandomGame_BTN => Pseudo_rand_num_generator:inst123.num_select_BTN
 CLK1 => Pseudo_rand_num_generator:inst123.CLK1
 CLK1 => order_register:Order_Register.CLK
+CLK1 => test:OpenerRemoteCtrl.CLK
 Random2 <= Pseudo_rand_num_generator:inst123.rndNum2
 Display1a <= id7_segement_decoder:id2SegDecoder.a
 table0 => test:OpenerRemoteCtrl.table_num_input0bit
@@ -14,10 +15,9 @@ table3 => test:OpenerRemoteCtrl.table_num_input3bit
 color_input0 => test:OpenerRemoteCtrl.color_input0bit
 color_input1 => test:OpenerRemoteCtrl.color_input1bit
 color_input2 => test:OpenerRemoteCtrl.color_input2bit
-OpenerPlusBTN => test:OpenerRemoteCtrl.CLK
-OpenerMinusBTN => test:OpenerRemoteCtrl.plus_order_BTN
-OpenerSendBTN => test:OpenerRemoteCtrl.minus_order_BTN
-take_order => test:OpenerRemoteCtrl.send_order_BTN
+OpenerPlusBTN => test:OpenerRemoteCtrl.plus_order_BTN
+OpenerMinusBTN => test:OpenerRemoteCtrl.minus_order_BTN
+OpenerSendBTN => test:OpenerRemoteCtrl.send_order_BTN
 take_order => order_register:Order_Register.take_order
 Display1b <= id7_segement_decoder:id2SegDecoder.b
 Display1c <= id7_segement_decoder:id2SegDecoder.c
@@ -47,8 +47,8 @@ Display2l <= table2segDecoder:table2SegDecoder.l_seg2
 Display2m <= table2segDecoder:table2SegDecoder.m_seg2
 Display2n <= table2segDecoder:table2SegDecoder.n_seg2
 DoorDisplayRemain1 <= remain_table:Remain_Table.remain_table0bit
-DoorPlusBTN => remain_table:Remain_Table.minus_BTN
-DoorMinusBTN => remain_table:Remain_Table.plus_BTN
+DoorMinusBTN => remain_table:Remain_Table.minus_BTN
+DoorPlusBTN => remain_table:Remain_Table.plus_BTN
 DoorResetBTN => remain_table:Remain_Table.reset_BTN
 DoorDisplayRemain2 <= remain_table:Remain_Table.remain_table1bit
 DoorDisplayRemain3 <= remain_table:Remain_Table.remain_table2bit
@@ -57,19 +57,19 @@ NumOfOrder2POS1 <= order_register:Order_Register.order_output0bit
 NumOfOrder2POS2 <= order_register:Order_Register.order_output1bit
 NumOfOrder2POS3 <= order_register:Order_Register.order_output2bit
 NumOfOrder2POS4 <= order_register:Order_Register.order_output3bit
-pin_name1 <= test:OpenerRemoteCtrl.opener_output0bit
-pin_name2 <= test:OpenerRemoteCtrl.opener_output1bit
-pin_name3 <= test:OpenerRemoteCtrl.opener_output2bit
-pin_name4 <= test:OpenerRemoteCtrl.opener_output3bit
-TotalPrice1 <= READD:inst521.Z1
-TotalPrice2 <= READD:inst521.Z2
-TotalPrice3 <= READD:inst521.Z3
-TotalPrice4 <= READD:inst521.Z4
-TotalPrice5 <= READD:inst521.Z5
-TotalPrice6 <= READD:inst521.Z6
-TotalPrice7 <= READD:inst521.Z7
-TotalPrice8 <= READD:inst521.Z8
-TotalPrice9 <= READD:inst521.Z9
+TotalPrice1 <= READD:Re_Adder.Z1
+TotalPrice2 <= READD:Re_Adder.Z2
+TotalPrice3 <= READD:Re_Adder.Z3
+TotalPrice4 <= READD:Re_Adder.Z4
+TotalPrice5 <= READD:Re_Adder.Z5
+TotalPrice6 <= READD:Re_Adder.Z6
+TotalPrice7 <= READD:Re_Adder.Z7
+TotalPrice8 <= READD:Re_Adder.Z8
+TotalPrice9 <= READD:Re_Adder.Z9
+OpenerDisplay1 <= test:OpenerRemoteCtrl.opener_output0bit
+OpenerDisplay2 <= test:OpenerRemoteCtrl.opener_output1bit
+OpenerDisplay3 <= test:OpenerRemoteCtrl.opener_output2bit
+OpenerDisplay4 <= test:OpenerRemoteCtrl.opener_output3bit
 
 
 |AutomaticRestaurant|Pseudo_rand_num_generator:inst123
@@ -293,7 +293,7 @@ remain_table2bit <= subtract2bit.DB_MAX_OUTPUT_PORT_TYPE
 remain_table3bit <= subtract3bit.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521
+|AutomaticRestaurant|READD:Re_Adder
 pin_name18 <= 7483:inst1.C4
 B8 => 7483:inst1.B4
 B4 => 7483:inst.B4
@@ -363,7 +363,7 @@ F5 => ~NO_FANOUT~
 G3 => ~NO_FANOUT~
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst1
+|AutomaticRestaurant|READD:Re_Adder|7483:inst1
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -388,7 +388,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst
+|AutomaticRestaurant|READD:Re_Adder|7483:inst
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -413,7 +413,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst12
+|AutomaticRestaurant|READD:Re_Adder|7483:inst12
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -438,7 +438,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst9
+|AutomaticRestaurant|READD:Re_Adder|7483:inst9
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -463,7 +463,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst7
+|AutomaticRestaurant|READD:Re_Adder|7483:inst7
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -488,7 +488,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst5
+|AutomaticRestaurant|READD:Re_Adder|7483:inst5
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -513,7 +513,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst3
+|AutomaticRestaurant|READD:Re_Adder|7483:inst3
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -538,7 +538,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst13
+|AutomaticRestaurant|READD:Re_Adder|7483:inst13
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -563,7 +563,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst10
+|AutomaticRestaurant|READD:Re_Adder|7483:inst10
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -588,7 +588,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst8
+|AutomaticRestaurant|READD:Re_Adder|7483:inst8
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -613,7 +613,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst6
+|AutomaticRestaurant|READD:Re_Adder|7483:inst6
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -638,7 +638,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|READD:inst521|7483:inst4
+|AutomaticRestaurant|READD:Re_Adder|7483:inst4
 C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
 B4 => 22.IN0
 B4 => 26.IN0
@@ -663,7 +663,7 @@ S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
 S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AutomaticRestaurant|DFFMAX:inst
+|AutomaticRestaurant|DFFMAX:DFF_SET
 pin_name12 <= inst65.DB_MAX_OUTPUT_PORT_TYPE
 zz1 => inst65.CLK
 pin_name1 => inst65.DATAIN

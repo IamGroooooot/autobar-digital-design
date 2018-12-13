@@ -140,22 +140,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "pin_name1",
-					"strict" : false
-				},
-				{
-					"name" : "pin_name2",
-					"strict" : false
-				},
-				{
-					"name" : "pin_name3",
-					"strict" : false
-				},
-				{
-					"name" : "pin_name4",
-					"strict" : false
-				},
-				{
 					"name" : "TotalPrice1",
 					"strict" : false
 				},
@@ -184,6 +168,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "OpenerDisplay1",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay2",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay3",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay4",
+					"strict" : false
+				},
+				{
 					"name" : "RandomGame_BTN",
 					"strict" : false
 				},
@@ -196,19 +196,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "DoorPlusBTN",
-					"strict" : false
-				},
-				{
 					"name" : "DoorMinusBTN",
 					"strict" : false
 				},
 				{
-					"name" : "OpenerMinusBTN",
+					"name" : "DoorPlusBTN",
 					"strict" : false
 				},
 				{
 					"name" : "OpenerSendBTN",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerPlusBTN",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerMinusBTN",
 					"strict" : false
 				},
 				{
@@ -225,10 +229,6 @@
 				},
 				{
 					"name" : "color_input2",
-					"strict" : false
-				},
-				{
-					"name" : "OpenerPlusBTN",
 					"strict" : false
 				},
 				{
