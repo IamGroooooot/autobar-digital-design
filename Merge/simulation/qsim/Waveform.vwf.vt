@@ -18,15 +18,15 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "12/13/2018 20:58:34"
+// Generated on "12/14/2018 00:46:51"
                                                                                 
-// Verilog Test Bench (with test vectors) for design :                          AutomaticRestaurant
+// Verilog Test Bench (with test vectors) for design :                          bar_management_system
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module AutomaticRestaurant_vlg_vec_tst();
+module bar_management_system_vlg_vec_tst();
 // constants                                           
 // general purpose registers
 reg CLK1;
@@ -90,18 +90,19 @@ wire OpenerDisplay3;
 wire OpenerDisplay4;
 wire Random1;
 wire Random2;
-wire TotalPrice1;
-wire TotalPrice2;
-wire TotalPrice3;
-wire TotalPrice4;
-wire TotalPrice5;
-wire TotalPrice6;
-wire TotalPrice7;
-wire TotalPrice8;
-wire TotalPrice9;
+wire total_price0bit;
+wire total_price1bit;
+wire total_price2bit;
+wire total_price3bit;
+wire total_price4bit;
+wire total_price5bit;
+wire total_price6bit;
+wire total_price7bit;
+wire total_price8bit;
+wire total_price9bit;
 
 // assign statements (if any)                          
-AutomaticRestaurant i1 (
+bar_management_system i1 (
 // port map - connection between master ports and signals/registers   
 	.CLK1(CLK1),
 	.color_input0(color_input0),
@@ -163,15 +164,16 @@ AutomaticRestaurant i1 (
 	.table2(table2),
 	.table3(table3),
 	.take_order(take_order),
-	.TotalPrice1(TotalPrice1),
-	.TotalPrice2(TotalPrice2),
-	.TotalPrice3(TotalPrice3),
-	.TotalPrice4(TotalPrice4),
-	.TotalPrice5(TotalPrice5),
-	.TotalPrice6(TotalPrice6),
-	.TotalPrice7(TotalPrice7),
-	.TotalPrice8(TotalPrice8),
-	.TotalPrice9(TotalPrice9)
+	.total_price0bit(total_price0bit),
+	.total_price1bit(total_price1bit),
+	.total_price2bit(total_price2bit),
+	.total_price3bit(total_price3bit),
+	.total_price4bit(total_price4bit),
+	.total_price5bit(total_price5bit),
+	.total_price6bit(total_price6bit),
+	.total_price7bit(total_price7bit),
+	.total_price8bit(total_price8bit),
+	.total_price9bit(total_price9bit)
 );
 initial 
 begin 
@@ -190,44 +192,30 @@ end
 initial
 begin
 	color_input0 = 1'b0;
-	color_input0 = #100000 1'b1;
+	color_input0 = #50000 1'b1;
 	color_input0 = #70000 1'b0;
+	color_input0 = #110000 1'b1;
+	color_input0 = #60000 1'b0;
 end 
 
 // color_input1
 initial
 begin
 	color_input1 = 1'b0;
-	color_input1 = #100000 1'b1;
+	color_input1 = #50000 1'b1;
 	color_input1 = #70000 1'b0;
+	color_input1 = #110000 1'b1;
+	color_input1 = #60000 1'b0;
 end 
 
 // color_input2
 initial
 begin
 	color_input2 = 1'b0;
-	color_input2 = #100000 1'b1;
+	color_input2 = #50000 1'b1;
 	color_input2 = #70000 1'b0;
-end 
-
-// DoorMinusBTN
-initial
-begin
-	DoorMinusBTN = 1'b0;
-	DoorMinusBTN = #20000 1'b1;
-	DoorMinusBTN = #60000 1'b0;
-end 
-
-// DoorPlusBTN
-initial
-begin
-	DoorPlusBTN = 1'b0;
-end 
-
-// DoorResetBTN
-initial
-begin
-	DoorResetBTN = 1'b0;
+	color_input2 = #110000 1'b1;
+	color_input2 = #60000 1'b0;
 end 
 
 // OpenerMinusBTN
@@ -240,46 +228,40 @@ end
 initial
 begin
 	OpenerPlusBTN = 1'b0;
-	OpenerPlusBTN = #140000 1'b1;
+	OpenerPlusBTN = #50000 1'b1;
 	OpenerPlusBTN = #70000 1'b0;
+	OpenerPlusBTN = #110000 1'b1;
+	OpenerPlusBTN = #60000 1'b0;
 end 
 
 // OpenerSendBTN
 initial
 begin
 	OpenerSendBTN = 1'b0;
-	OpenerSendBTN = #210000 1'b1;
+	OpenerSendBTN = #170000 1'b1;
+	OpenerSendBTN = #50000 1'b0;
+	OpenerSendBTN = #160000 1'b1;
 	OpenerSendBTN = #60000 1'b0;
-end 
-
-// RandomGame_BTN
-initial
-begin
-	RandomGame_BTN = 1'b0;
-end 
-
-// seed1
-initial
-begin
-	seed1 = 1'b0;
-end 
-
-// seed2
-initial
-begin
-	seed2 = 1'b0;
 end 
 
 // table0
 initial
 begin
-	table0 = 1'b1;
+	table0 = 1'b0;
+	table0 = #50000 1'b1;
+	table0 = #70000 1'b0;
+	table0 = #110000 1'b1;
+	table0 = #60000 1'b0;
 end 
 
 // table1
 initial
 begin
 	table1 = 1'b0;
+	table1 = #50000 1'b1;
+	table1 = #70000 1'b0;
+	table1 = #110000 1'b1;
+	table1 = #60000 1'b0;
 end 
 
 // table2
@@ -298,8 +280,10 @@ end
 initial
 begin
 	take_order = 1'b0;
-	take_order = #290000 1'b1;
-	take_order = #100000 1'b0;
+	take_order = #310000 1'b1;
+	take_order = #60000 1'b0;
+	take_order = #90000 1'b1;
+	take_order = #80000 1'b0;
 end 
 endmodule
 

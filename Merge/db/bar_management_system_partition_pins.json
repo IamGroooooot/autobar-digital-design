@@ -1,0 +1,273 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Random1",
+					"strict" : false
+				},
+				{
+					"name" : "Random2",
+					"strict" : false
+				},
+				{
+					"name" : "Display1a",
+					"strict" : false
+				},
+				{
+					"name" : "Display1b",
+					"strict" : false
+				},
+				{
+					"name" : "Display1c",
+					"strict" : false
+				},
+				{
+					"name" : "Display1d",
+					"strict" : false
+				},
+				{
+					"name" : "Display1e",
+					"strict" : false
+				},
+				{
+					"name" : "Display1f",
+					"strict" : false
+				},
+				{
+					"name" : "Display1h",
+					"strict" : false
+				},
+				{
+					"name" : "Display1i",
+					"strict" : false
+				},
+				{
+					"name" : "Display1j",
+					"strict" : false
+				},
+				{
+					"name" : "Display1l",
+					"strict" : false
+				},
+				{
+					"name" : "Display1k",
+					"strict" : false
+				},
+				{
+					"name" : "Display1m",
+					"strict" : false
+				},
+				{
+					"name" : "Display1n",
+					"strict" : false
+				},
+				{
+					"name" : "Display2a",
+					"strict" : false
+				},
+				{
+					"name" : "Display2d",
+					"strict" : false
+				},
+				{
+					"name" : "Display2e",
+					"strict" : false
+				},
+				{
+					"name" : "Display2f",
+					"strict" : false
+				},
+				{
+					"name" : "Display2h",
+					"strict" : false
+				},
+				{
+					"name" : "Display2i",
+					"strict" : false
+				},
+				{
+					"name" : "Display2j",
+					"strict" : false
+				},
+				{
+					"name" : "Display2k",
+					"strict" : false
+				},
+				{
+					"name" : "Display2l",
+					"strict" : false
+				},
+				{
+					"name" : "Display2m",
+					"strict" : false
+				},
+				{
+					"name" : "Display2n",
+					"strict" : false
+				},
+				{
+					"name" : "DoorDisplayRemain1",
+					"strict" : false
+				},
+				{
+					"name" : "DoorDisplayRemain2",
+					"strict" : false
+				},
+				{
+					"name" : "DoorDisplayRemain3",
+					"strict" : false
+				},
+				{
+					"name" : "DoorDisplayRemain4",
+					"strict" : false
+				},
+				{
+					"name" : "NumOfOrder2POS1",
+					"strict" : false
+				},
+				{
+					"name" : "NumOfOrder2POS2",
+					"strict" : false
+				},
+				{
+					"name" : "NumOfOrder2POS3",
+					"strict" : false
+				},
+				{
+					"name" : "NumOfOrder2POS4",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay1",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay2",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay3",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerDisplay4",
+					"strict" : false
+				},
+				{
+					"name" : "total_price2bit",
+					"strict" : false
+				},
+				{
+					"name" : "total_price3bit",
+					"strict" : false
+				},
+				{
+					"name" : "total_price4bit",
+					"strict" : false
+				},
+				{
+					"name" : "total_price5bit",
+					"strict" : false
+				},
+				{
+					"name" : "total_price6bit",
+					"strict" : false
+				},
+				{
+					"name" : "total_price7bit",
+					"strict" : false
+				},
+				{
+					"name" : "total_price8bit",
+					"strict" : false
+				},
+				{
+					"name" : "total_price9bit",
+					"strict" : false
+				},
+				{
+					"name" : "total_priceAbit",
+					"strict" : false
+				},
+				{
+					"name" : "RandomGame_BTN",
+					"strict" : false
+				},
+				{
+					"name" : "take_order",
+					"strict" : false
+				},
+				{
+					"name" : "DoorResetBTN",
+					"strict" : false
+				},
+				{
+					"name" : "DoorMinusBTN",
+					"strict" : false
+				},
+				{
+					"name" : "DoorPlusBTN",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerSendBTN",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerPlusBTN",
+					"strict" : false
+				},
+				{
+					"name" : "OpenerMinusBTN",
+					"strict" : false
+				},
+				{
+					"name" : "expense_calculation",
+					"strict" : false
+				},
+				{
+					"name" : "CLK1",
+					"strict" : false
+				},
+				{
+					"name" : "seed1",
+					"strict" : false
+				},
+				{
+					"name" : "seed2",
+					"strict" : false
+				},
+				{
+					"name" : "color_input2",
+					"strict" : false
+				},
+				{
+					"name" : "color_input0",
+					"strict" : false
+				},
+				{
+					"name" : "color_input1",
+					"strict" : false
+				},
+				{
+					"name" : "table1",
+					"strict" : false
+				},
+				{
+					"name" : "table2",
+					"strict" : false
+				},
+				{
+					"name" : "table0",
+					"strict" : false
+				},
+				{
+					"name" : "table3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
