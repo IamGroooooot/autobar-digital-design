@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AutomaticRestaurant
-Thu Dec 13 17:10:16 2018
+Thu Dec 13 19:15:29 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -43,12 +43,12 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Dec 13 17:10:16 2018       ;
+; Analysis & Synthesis Status        ; Successful - Thu Dec 13 19:15:29 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AutomaticRestaurant                         ;
 ; Top-level Entity Name              ; AutomaticRestaurant                         ;
 ; Family                             ; Cyclone IV GX                               ;
-; Total logic elements               ; 240                                         ;
+; Total logic elements               ; 242                                         ;
 ;     Total combinational functions  ; 142                                         ;
 ;     Dedicated logic registers      ; 110                                         ;
 ; Total registers                    ; 110                                         ;
@@ -154,7 +154,7 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -167,22 +167,22 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                            ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                            ; Library ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
-; AutomaticRestaurant.bdf          ; yes             ; User Block Diagram/Schematic File        ; D:/nam/AutoBar_DigitalDesign-master/Merge/AutomaticRestaurant.bdf       ;         ;
-; pseudo_rand_num_generator.bdf    ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/pseudo_rand_num_generator.bdf ;         ;
-; id7_segement_decoder.bdf         ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/id7_segement_decoder.bdf      ;         ;
-; order_register.bdf               ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/order_register.bdf            ;         ;
-; test.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/test.bdf                      ;         ;
-; table2segdecoder.bdf             ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/table2segdecoder.bdf          ;         ;
-; remain_table.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/remain_table.bdf              ;         ;
-; readd.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/readd.bdf                     ;         ;
-; 7483.bdf                         ; yes             ; Megafunction                             ; d:/intelfpga_lite/18.1/quartus/libraries/others/maxplus2/7483.bdf       ;         ;
-; dffmax.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/nam/AutoBar_DigitalDesign-master/Merge/dffmax.bdf                    ;         ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                                              ; Library ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------+
+; AutomaticRestaurant.bdf          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/AutomaticRestaurant.bdf       ;         ;
+; pseudo_rand_num_generator.bdf    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/pseudo_rand_num_generator.bdf ;         ;
+; id7_segement_decoder.bdf         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/id7_segement_decoder.bdf      ;         ;
+; order_register.bdf               ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/order_register.bdf            ;         ;
+; test.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/test.bdf                      ;         ;
+; table2segdecoder.bdf             ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/table2segdecoder.bdf          ;         ;
+; remain_table.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/remain_table.bdf              ;         ;
+; readd.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/readd.bdf                     ;         ;
+; 7483.bdf                         ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/others/maxplus2/7483.bdf                                                         ;         ;
+; dffmax.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/CAUCSE/Desktop/AutoBar_DigitalDesign-master (2)/AutoBar_DigitalDesign-master/Merge/dffmax.bdf                    ;         ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -196,8 +196,8 @@ refer to the applicable agreement for further details.
 ;                          ;                  ;
 ; Maximum fan-out node     ; CLK1~input       ;
 ; Maximum fan-out          ; 26               ;
-; Total fan-out            ; 891              ;
-; Average fan-out          ; 2.28             ;
+; Total fan-out            ; 893              ;
+; Average fan-out          ; 2.29             ;
 +--------------------------+------------------+
 
 
@@ -290,7 +290,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Dec 13 17:10:03 2018
+    Info: Processing started: Thu Dec 13 19:15:15 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AutomaticRestaurant -c AutomaticRestaurant
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -351,9 +351,9 @@ Info (21057): Implemented 311 device resources after synthesis - the final resou
     Info (21059): Implemented 51 output pins
     Info (21061): Implemented 242 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
-    Info: Peak virtual memory: 4865 megabytes
-    Info: Processing ended: Thu Dec 13 17:10:16 2018
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Peak virtual memory: 693 megabytes
+    Info: Processing ended: Thu Dec 13 19:15:29 2018
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:25
 
 

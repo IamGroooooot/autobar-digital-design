@@ -3905,106 +3905,6 @@ refer to the applicable agreement for further details.
 	(pt 2448 800)
 )
 (connector
-	(pt 1688 920)
-	(pt 1672 920)
-)
-(connector
-	(pt 1688 952)
-	(pt 1656 952)
-)
-(connector
-	(pt 1688 984)
-	(pt 1648 984)
-)
-(connector
-	(pt 1688 1016)
-	(pt 1632 1016)
-)
-(connector
-	(pt 1688 1048)
-	(pt 1616 1048)
-)
-(connector
-	(pt 1688 1080)
-	(pt 1600 1080)
-)
-(connector
-	(pt 1688 1112)
-	(pt 1592 1112)
-)
-(connector
-	(pt 1688 1144)
-	(pt 1568 1144)
-)
-(connector
-	(pt 1688 1208)
-	(pt 1552 1208)
-)
-(connector
-	(pt 1688 1240)
-	(pt 1544 1240)
-)
-(connector
-	(pt 1688 1272)
-	(pt 1536 1272)
-)
-(connector
-	(pt 1688 1304)
-	(pt 1528 1304)
-)
-(connector
-	(pt 1688 1336)
-	(pt 1512 1336)
-)
-(connector
-	(pt 1688 1368)
-	(pt 1504 1368)
-)
-(connector
-	(pt 1688 1400)
-	(pt 1496 1400)
-)
-(connector
-	(pt 1688 1432)
-	(pt 1488 1432)
-)
-(connector
-	(pt 1688 1464)
-	(pt 1480 1464)
-)
-(connector
-	(pt 1688 1496)
-	(pt 1472 1496)
-)
-(connector
-	(pt 1464 1528)
-	(pt 1688 1528)
-)
-(connector
-	(pt 1448 1560)
-	(pt 1688 1560)
-)
-(connector
-	(pt 1432 1624)
-	(pt 1688 1624)
-)
-(connector
-	(pt 1424 1656)
-	(pt 1688 1656)
-)
-(connector
-	(pt 1416 1688)
-	(pt 1688 1688)
-)
-(connector
-	(pt 1408 1720)
-	(pt 1688 1720)
-)
-(connector
-	(pt 1400 1752)
-	(pt 1688 1752)
-)
-(connector
 	(pt 936 448)
 	(pt 976 448)
 )
@@ -4181,14 +4081,6 @@ refer to the applicable agreement for further details.
 	(pt 1552 1048)
 )
 (connector
-	(pt 1544 1064)
-	(pt 1520 1064)
-)
-(connector
-	(pt 1544 1240)
-	(pt 1544 1064)
-)
-(connector
 	(pt 1536 1080)
 	(pt 1520 1080)
 )
@@ -4213,20 +4105,8 @@ refer to the applicable agreement for further details.
 	(pt 1520 1032)
 )
 (connector
-	(pt 1520 1048)
-	(pt 1520 1064)
-)
-(connector
-	(pt 1520 1064)
-	(pt 1520 1080)
-)
-(connector
 	(pt 1520 1080)
 	(pt 1520 1096)
-)
-(connector
-	(pt 1688 888)
-	(pt 1520 888)
 )
 (connector
 	(pt 1672 904)
@@ -4265,16 +4145,8 @@ refer to the applicable agreement for further details.
 	(pt 1520 968)
 )
 (connector
-	(pt 1616 1048)
-	(pt 1616 968)
-)
-(connector
 	(pt 1600 984)
 	(pt 1520 984)
-)
-(connector
-	(pt 1600 1080)
-	(pt 1600 984)
 )
 (connector
 	(pt 1520 888)
@@ -4299,10 +4171,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1512 1112)
 	(pt 1464 1112)
-)
-(connector
-	(pt 1512 1336)
-	(pt 1512 1112)
 )
 (connector
 	(pt 1504 1128)
@@ -4705,32 +4573,12 @@ refer to the applicable agreement for further details.
 	(pt 1296 1048)
 )
 (connector
-	(pt 1088 1120)
-	(pt 1304 1120)
-)
-(connector
-	(pt 1088 1112)
-	(pt 1088 1120)
-)
-(connector
-	(pt 1088 1120)
-	(pt 1088 1136)
-)
-(connector
 	(pt 1088 1008)
 	(pt 1264 1008)
-)
-(connector
-	(pt 1264 1008)
-	(pt 1264 1128)
 )
 (connector
 	(pt 1088 1008)
 	(pt 1088 1024)
-)
-(connector
-	(pt 1264 1128)
-	(pt 1304 1128)
 )
 (connector
 	(pt 1160 1136)
@@ -4909,14 +4757,6 @@ refer to the applicable agreement for further details.
 	(pt 1680 896)
 )
 (connector
-	(pt 1680 896)
-	(pt 1680 904)
-)
-(connector
-	(pt 1680 904)
-	(pt 1688 904)
-)
-(connector
 	(pt 1440 896)
 	(pt 1440 976)
 )
@@ -4925,14 +4765,6 @@ refer to the applicable agreement for further details.
 	(pt 1440 1104)
 )
 (connector
-	(pt 1680 1104)
-	(pt 1680 1128)
-)
-(connector
-	(pt 1680 1128)
-	(pt 1688 1128)
-)
-(connector
 	(pt 1440 976)
 	(pt 1440 1104)
 )
@@ -4941,40 +4773,8 @@ refer to the applicable agreement for further details.
 	(pt 1440 1216)
 )
 (connector
-	(pt 1680 1216)
-	(pt 1440 1216)
-)
-(connector
-	(pt 1680 1216)
-	(pt 1680 1352)
-)
-(connector
-	(pt 1680 1352)
-	(pt 1688 1352)
-)
-(connector
 	(pt 1400 944)
 	(pt 1400 1152)
-)
-(connector
-	(pt 1400 1152)
-	(pt 1400 1200)
-)
-(connector
-	(pt 1664 1200)
-	(pt 1400 1200)
-)
-(connector
-	(pt 1664 1200)
-	(pt 1664 1576)
-)
-(connector
-	(pt 1664 1576)
-	(pt 1688 1576)
-)
-(connector
-	(pt 1688 1592)
-	(pt 1440 1592)
 )
 (connector
 	(pt 1400 1240)
@@ -4998,14 +4798,6 @@ refer to the applicable agreement for further details.
 )
 (connector
 	(pt 1680 928)
-	(pt 1680 936)
-)
-(connector
-	(pt 1680 936)
-	(pt 1688 936)
-)
-(connector
-	(pt 1680 928)
 	(pt 1392 928)
 )
 (connector
@@ -5021,36 +4813,8 @@ refer to the applicable agreement for further details.
 	(pt 1560 1160)
 )
 (connector
-	(pt 1560 1160)
-	(pt 1688 1160)
-)
-(connector
 	(pt 1392 1120)
 	(pt 1672 1120)
-)
-(connector
-	(pt 1672 1176)
-	(pt 1688 1176)
-)
-(connector
-	(pt 1672 1120)
-	(pt 1672 1176)
-)
-(connector
-	(pt 1672 1384)
-	(pt 1688 1384)
-)
-(connector
-	(pt 1672 1176)
-	(pt 1672 1384)
-)
-(connector
-	(pt 1672 1384)
-	(pt 1672 1608)
-)
-(connector
-	(pt 1672 1608)
-	(pt 1688 1608)
 )
 (connector
 	(pt 1432 1128)
@@ -5065,38 +4829,6 @@ refer to the applicable agreement for further details.
 	(pt 1656 960)
 )
 (connector
-	(pt 1688 968)
-	(pt 1656 968)
-)
-(connector
-	(pt 1656 960)
-	(pt 1656 968)
-)
-(connector
-	(pt 1656 1192)
-	(pt 1688 1192)
-)
-(connector
-	(pt 1656 968)
-	(pt 1656 1192)
-)
-(connector
-	(pt 1656 1416)
-	(pt 1688 1416)
-)
-(connector
-	(pt 1656 1192)
-	(pt 1656 1416)
-)
-(connector
-	(pt 1656 1416)
-	(pt 1656 1640)
-)
-(connector
-	(pt 1656 1640)
-	(pt 1688 1640)
-)
-(connector
 	(pt 1368 1200)
 	(pt 1376 1200)
 )
@@ -5109,144 +4841,20 @@ refer to the applicable agreement for further details.
 	(pt 1624 1168)
 )
 (connector
-	(pt 1688 1000)
-	(pt 1624 1000)
-)
-(connector
 	(pt 1624 1000)
 	(pt 1624 1168)
-)
-(connector
-	(pt 1688 1672)
-	(pt 1624 1672)
-)
-(connector
-	(pt 1624 1224)
-	(pt 1688 1224)
-)
-(connector
-	(pt 1624 1168)
-	(pt 1624 1224)
-)
-(connector
-	(pt 1624 1448)
-	(pt 1688 1448)
-)
-(connector
-	(pt 1624 1224)
-	(pt 1624 1448)
-)
-(connector
-	(pt 1624 1448)
-	(pt 1624 1672)
 )
 (connector
 	(pt 1608 1280)
 	(pt 1368 1280)
 )
 (connector
-	(pt 1608 1032)
-	(pt 1688 1032)
-)
-(connector
-	(pt 1608 1256)
-	(pt 1688 1256)
-)
-(connector
-	(pt 1608 1032)
-	(pt 1608 1256)
-)
-(connector
-	(pt 1608 1256)
-	(pt 1608 1280)
-)
-(connector
-	(pt 1608 1480)
-	(pt 1688 1480)
-)
-(connector
-	(pt 1608 1280)
-	(pt 1608 1480)
-)
-(connector
-	(pt 1608 1480)
-	(pt 1608 1704)
-)
-(connector
-	(pt 1608 1704)
-	(pt 1688 1704)
-)
-(connector
 	(pt 1368 1360)
 	(pt 1584 1360)
 )
 (connector
-	(pt 1584 1064)
-	(pt 1688 1064)
-)
-(connector
-	(pt 1584 1288)
-	(pt 1688 1288)
-)
-(connector
-	(pt 1584 1064)
-	(pt 1584 1288)
-)
-(connector
-	(pt 1584 1512)
-	(pt 1688 1512)
-)
-(connector
-	(pt 1584 1288)
-	(pt 1584 1360)
-)
-(connector
-	(pt 1584 1736)
-	(pt 1688 1736)
-)
-(connector
-	(pt 1584 1360)
-	(pt 1584 1512)
-)
-(connector
-	(pt 1584 1512)
-	(pt 1584 1736)
-)
-(connector
 	(pt 1368 1448)
 	(pt 1576 1448)
-)
-(connector
-	(pt 1576 1096)
-	(pt 1688 1096)
-)
-(connector
-	(pt 1576 1320)
-	(pt 1688 1320)
-)
-(connector
-	(pt 1576 1096)
-	(pt 1576 1320)
-)
-(connector
-	(pt 1576 1544)
-	(pt 1688 1544)
-)
-(connector
-	(pt 1576 1320)
-	(pt 1576 1448)
-)
-(connector
-	(pt 1576 1768)
-	(pt 1688 1768)
-)
-(connector
-	(pt 1576 1448)
-	(pt 1576 1544)
-)
-(connector
-	(pt 1576 1544)
-	(pt 1576 1768)
 )
 (connector
 	(pt 1192 1064)
@@ -5368,6 +4976,390 @@ refer to the applicable agreement for further details.
 	(pt 624 648)
 	(pt 680 648)
 )
+(connector
+	(pt 1600 1064)
+	(pt 1600 984)
+)
+(connector
+	(pt 1520 1064)
+	(pt 1544 1064)
+)
+(connector
+	(pt 1520 1048)
+	(pt 1520 1064)
+)
+(connector
+	(pt 1520 1064)
+	(pt 1520 1080)
+)
+(connector
+	(pt 1544 1224)
+	(pt 1544 1064)
+)
+(connector
+	(pt 1680 896)
+	(pt 1680 904)
+)
+(connector
+	(pt 1680 904)
+	(pt 1688 904)
+)
+(connector
+	(pt 1688 888)
+	(pt 1520 888)
+)
+(connector
+	(pt 1688 920)
+	(pt 1672 920)
+)
+(connector
+	(pt 1688 952)
+	(pt 1656 952)
+)
+(connector
+	(pt 1688 984)
+	(pt 1648 984)
+)
+(connector
+	(pt 1688 1016)
+	(pt 1632 1016)
+)
+(connector
+	(pt 1616 968)
+	(pt 1616 1048)
+)
+(connector
+	(pt 1616 1048)
+	(pt 1688 1048)
+)
+(connector
+	(pt 1688 1064)
+	(pt 1600 1064)
+)
+(connector
+	(pt 1688 1112)
+	(pt 1592 1112)
+)
+(connector
+	(pt 1688 1144)
+	(pt 1568 1144)
+)
+(connector
+	(pt 1688 1160)
+	(pt 1560 1160)
+)
+(connector
+	(pt 1688 1208)
+	(pt 1552 1208)
+)
+(connector
+	(pt 1688 1224)
+	(pt 1544 1224)
+)
+(connector
+	(pt 1688 1272)
+	(pt 1536 1272)
+)
+(connector
+	(pt 1688 1304)
+	(pt 1528 1304)
+)
+(connector
+	(pt 1512 1112)
+	(pt 1512 1336)
+)
+(connector
+	(pt 1512 1336)
+	(pt 1688 1336)
+)
+(connector
+	(pt 1688 1368)
+	(pt 1504 1368)
+)
+(connector
+	(pt 1688 1400)
+	(pt 1496 1400)
+)
+(connector
+	(pt 1688 1432)
+	(pt 1488 1432)
+)
+(connector
+	(pt 1688 1464)
+	(pt 1480 1464)
+)
+(connector
+	(pt 1688 1496)
+	(pt 1472 1496)
+)
+(connector
+	(pt 1688 1528)
+	(pt 1464 1528)
+)
+(connector
+	(pt 1688 1560)
+	(pt 1448 1560)
+)
+(connector
+	(pt 1688 1592)
+	(pt 1440 1592)
+)
+(connector
+	(pt 1688 1624)
+	(pt 1432 1624)
+)
+(connector
+	(pt 1688 1656)
+	(pt 1424 1656)
+)
+(connector
+	(pt 1688 1688)
+	(pt 1416 1688)
+)
+(connector
+	(pt 1688 1720)
+	(pt 1408 1720)
+)
+(connector
+	(pt 1688 1752)
+	(pt 1400 1752)
+)
+(connector
+	(pt 1264 1120)
+	(pt 1264 1008)
+)
+(connector
+	(pt 1264 1120)
+	(pt 1304 1120)
+)
+(connector
+	(pt 1304 1128)
+	(pt 1088 1128)
+)
+(connector
+	(pt 1088 1112)
+	(pt 1088 1128)
+)
+(connector
+	(pt 1088 1128)
+	(pt 1088 1136)
+)
+(connector
+	(pt 1680 1104)
+	(pt 1680 1128)
+)
+(connector
+	(pt 1680 1128)
+	(pt 1688 1128)
+)
+(connector
+	(pt 1664 1216)
+	(pt 1440 1216)
+)
+(connector
+	(pt 1664 1352)
+	(pt 1688 1352)
+)
+(connector
+	(pt 1664 1216)
+	(pt 1664 1352)
+)
+(connector
+	(pt 1664 1352)
+	(pt 1664 1576)
+)
+(connector
+	(pt 1664 1576)
+	(pt 1688 1576)
+)
+(connector
+	(pt 1680 928)
+	(pt 1680 936)
+)
+(connector
+	(pt 1680 936)
+	(pt 1688 936)
+)
+(connector
+	(pt 1688 1176)
+	(pt 1672 1176)
+)
+(connector
+	(pt 1672 1120)
+	(pt 1672 1176)
+)
+(connector
+	(pt 1688 1384)
+	(pt 1672 1384)
+)
+(connector
+	(pt 1672 1176)
+	(pt 1672 1384)
+)
+(connector
+	(pt 1672 1384)
+	(pt 1672 1608)
+)
+(connector
+	(pt 1688 1608)
+	(pt 1672 1608)
+)
+(connector
+	(pt 1688 968)
+	(pt 1656 968)
+)
+(connector
+	(pt 1656 960)
+	(pt 1656 968)
+)
+(connector
+	(pt 1688 1192)
+	(pt 1656 1192)
+)
+(connector
+	(pt 1656 968)
+	(pt 1656 1192)
+)
+(connector
+	(pt 1688 1416)
+	(pt 1656 1416)
+)
+(connector
+	(pt 1656 1192)
+	(pt 1656 1416)
+)
+(connector
+	(pt 1656 1416)
+	(pt 1656 1640)
+)
+(connector
+	(pt 1688 1640)
+	(pt 1656 1640)
+)
+(connector
+	(pt 1688 1000)
+	(pt 1624 1000)
+)
+(connector
+	(pt 1688 1240)
+	(pt 1624 1240)
+)
+(connector
+	(pt 1624 1168)
+	(pt 1624 1240)
+)
+(connector
+	(pt 1624 1240)
+	(pt 1624 1448)
+)
+(connector
+	(pt 1624 1448)
+	(pt 1624 1672)
+)
+(connector
+	(pt 1688 1448)
+	(pt 1624 1448)
+)
+(connector
+	(pt 1688 1672)
+	(pt 1624 1672)
+)
+(connector
+	(pt 1688 1032)
+	(pt 1608 1032)
+)
+(connector
+	(pt 1688 1256)
+	(pt 1608 1256)
+)
+(connector
+	(pt 1608 1032)
+	(pt 1608 1256)
+)
+(connector
+	(pt 1608 1256)
+	(pt 1608 1280)
+)
+(connector
+	(pt 1688 1480)
+	(pt 1608 1480)
+)
+(connector
+	(pt 1608 1280)
+	(pt 1608 1480)
+)
+(connector
+	(pt 1608 1480)
+	(pt 1608 1704)
+)
+(connector
+	(pt 1688 1704)
+	(pt 1608 1704)
+)
+(connector
+	(pt 1688 1080)
+	(pt 1584 1080)
+)
+(connector
+	(pt 1688 1288)
+	(pt 1584 1288)
+)
+(connector
+	(pt 1584 1080)
+	(pt 1584 1288)
+)
+(connector
+	(pt 1584 1288)
+	(pt 1584 1360)
+)
+(connector
+	(pt 1688 1512)
+	(pt 1584 1512)
+)
+(connector
+	(pt 1584 1360)
+	(pt 1584 1512)
+)
+(connector
+	(pt 1584 1512)
+	(pt 1584 1736)
+)
+(connector
+	(pt 1688 1736)
+	(pt 1584 1736)
+)
+(connector
+	(pt 1688 1768)
+	(pt 1576 1768)
+)
+(connector
+	(pt 1688 1544)
+	(pt 1576 1544)
+)
+(connector
+	(pt 1576 1448)
+	(pt 1576 1544)
+)
+(connector
+	(pt 1576 1544)
+	(pt 1576 1768)
+)
+(connector
+	(pt 1688 1320)
+	(pt 1576 1320)
+)
+(connector
+	(pt 1576 1096)
+	(pt 1576 1320)
+)
+(connector
+	(pt 1576 1320)
+	(pt 1576 1448)
+)
+(connector
+	(pt 1688 1096)
+	(pt 1576 1096)
+)
 (junction (pt 288 56))
 (junction (pt 952 400))
 (junction (pt 960 416))
@@ -5406,7 +5398,6 @@ refer to the applicable agreement for further details.
 (junction (pt 1088 1056))
 (junction (pt 1088 1104))
 (junction (pt 1088 1112))
-(junction (pt 1088 1120))
 (junction (pt 1088 1136))
 (junction (pt 1088 1152))
 (junction (pt 1088 1168))
@@ -5418,7 +5409,6 @@ refer to the applicable agreement for further details.
 (junction (pt 1088 1296))
 (junction (pt 1440 976))
 (junction (pt 1440 1104))
-(junction (pt 1400 1152))
 (junction (pt 1392 1056))
 (junction (pt 1672 1176))
 (junction (pt 1672 1384))
@@ -5426,7 +5416,6 @@ refer to the applicable agreement for further details.
 (junction (pt 1656 1192))
 (junction (pt 1656 1416))
 (junction (pt 1624 1168))
-(junction (pt 1624 1224))
 (junction (pt 1624 1448))
 (junction (pt 1608 1256))
 (junction (pt 1608 1280))
@@ -5438,3 +5427,6 @@ refer to the applicable agreement for further details.
 (junction (pt 1576 1448))
 (junction (pt 1576 1544))
 (junction (pt 288 256))
+(junction (pt 1624 1240))
+(junction (pt 1088 1128))
+(junction (pt 1664 1352))

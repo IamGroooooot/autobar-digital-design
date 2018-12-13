@@ -81,16 +81,16 @@ GND                          : A3        : gnd    :                   :         
 ~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : A4        : input  : 2.5 V             :         : 9         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A5        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A6        :        :                   :         : 8         :                
-Random2                      : A7        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A7        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A9        :        :                   :         : 8         :                
-DoorResetBTN                 : A10       : input  : 2.5 V             :         : 8         : N              
-DoorMinusBTN                 : A11       : input  : 2.5 V             :         : 8         : N              
+DoorPlusBTN                  : A10       : input  : 2.5 V             :         : 8         : N              
+Display1j                    : A11       : output : 2.5 V             :         : 8         : N              
 GND+                         : A12       :        :                   :         : 7         :                
-Display2h                    : A13       : output : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : A14       :        :                   :         : 7         :                
-Display2a                    : A15       : output : 2.5 V             :         : 7         : N              
-Display2f                    : A16       : output : 2.5 V             :         : 7         : N              
+Display1l                    : A13       : output : 2.5 V             :         : 7         : N              
+Display1e                    : A14       : output : 2.5 V             :         : 7         : N              
+Display1c                    : A15       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A16       :        :                   :         : 7         :                
 TotalPrice9                  : A17       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A18       :        :                   :         : 7         :                
 GXB_NC                       : B1        :        :                   :         : QL0       :                
@@ -101,14 +101,14 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : B5        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : B6        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B7        :        :                   :         : 8         :                
 GND                          : B8        : gnd    :                   :         :           :                
-DoorDisplayRemain2           : B9        : output : 2.5 V             :         : 8         : N              
-DoorDisplayRemain4           : B10       : output : 2.5 V             :         : 8         : N              
+DoorDisplayRemain3           : B9        : output : 2.5 V             :         : 8         : N              
+DoorDisplayRemain1           : B10       : output : 2.5 V             :         : 8         : N              
 GND                          : B11       : gnd    :                   :         :           :                
 GND+                         : B12       :        :                   :         : 7         :                
-Display2k                    : B13       : output : 2.5 V             :         : 7         : N              
+Display1k                    : B13       : output : 2.5 V             :         : 7         : N              
 GND                          : B14       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B15       :        :                   :         : 7         :                
-Display2d                    : B16       : output : 2.5 V             :         : 7         : N              
+Display1b                    : B16       : output : 2.5 V             :         : 7         : N              
 GND                          : B17       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B18       :        :                   :         : 7         :                
 GND                          : C1        : gnd    :                   :         :           :                
@@ -119,15 +119,15 @@ nCONFIG                      : C4        :        :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : C6        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C7        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C9        :        :                   :         : 8         :                
-DoorDisplayRemain3           : C10       : output : 2.5 V             :         : 8         : N              
-DoorPlusBTN                  : C11       : input  : 2.5 V             :         : 8         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : C12       :        :                   :         : 7         :                
-Display2e                    : C13       : output : 2.5 V             :         : 7         : N              
+DoorDisplayRemain4           : C9        : output : 2.5 V             :         : 8         : N              
+DoorMinusBTN                 : C10       : input  : 2.5 V             :         : 8         : N              
+DoorDisplayRemain2           : C11       : output : 2.5 V             :         : 8         : N              
+Display1m                    : C12       : output : 2.5 V             :         : 7         : N              
+Display1a                    : C13       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : C14       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C15       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C16       :        :                   :         : 7         :                
-Display1g                    : C17       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C17       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C18       :        :                   :         : 7         :                
 GXB_GND*                     : D1        :        :                   :         : QL0       :                
 GXB_GND*                     : D2        :        :                   :         : QL0       :                
@@ -136,13 +136,13 @@ TDI                          : D4        : input  :                   :         
 ~ALTERA_DCLK~                : D5        : output : 2.5 V             :         : 9         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8         :                
-seed2                        : D8        : input  : 2.5 V             :         : 8         : N              
-DoorDisplayRemain1           : D9        : output : 2.5 V             :         : 8         : N              
-Display2j                    : D10       : output : 2.5 V             :         : 7         : N              
-Display2l                    : D11       : output : 2.5 V             :         : 7         : N              
-Display2i                    : D12       : output : 2.5 V             :         : 7         : N              
-Display2b                    : D13       : output : 2.5 V             :         : 7         : N              
-Display2c                    : D14       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D8        :        :                   :         : 8         :                
+DoorResetBTN                 : D9        : input  : 2.5 V             :         : 8         : N              
+Display1f                    : D10       : output : 2.5 V             :         : 7         : N              
+Display1i                    : D11       : output : 2.5 V             :         : 7         : N              
+TotalPrice6                  : D12       : output : 2.5 V             :         : 7         : N              
+seed1                        : D13       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D14       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D15       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D16       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D17       :        :                   :         : 6         :                
@@ -156,9 +156,9 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : E6        :        :                   :      
 VCCIO8                       : E7        : power  :                   : 2.5V    : 8         :                
 GND                          : E8        : gnd    :                   :         :           :                
 VCCIO8                       : E9        : power  :                   : 2.5V    : 8         :                
-Display2m                    : E10       : output : 2.5 V             :         : 7         : N              
+Display1n                    : E10       : output : 2.5 V             :         : 7         : N              
 GND                          : E11       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E12       :        :                   :         : 7         :                
+Random1                      : E12       : output : 2.5 V             :         : 7         : N              
 VCCIO7                       : E13       : power  :                   : 2.5V    : 7         :                
 GND                          : E14       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :         : 6         :                
@@ -181,7 +181,7 @@ GND                          : F13       : gnd    :                   :         
 VCCD_PLL                     : F14       : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F15       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F16       :        :                   :         : 6         :                
-TotalPrice8                  : F17       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F17       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F18       :        :                   :         : 6         :                
 GND                          : G1        : gnd    :                   :         :           :                
 GND                          : G2        : gnd    :                   :         :           :                
@@ -200,7 +200,7 @@ VCCIO6                       : G14       : power  :                   : 2.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : G15       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G16       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G17       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : G18       :        :                   :         : 6         :                
+TotalPrice8                  : G18       : output : 2.5 V             :         : 6         : N              
 GXB_GND*                     : H1        :        :                   :         : QL0       :                
 GXB_GND*                     : H2        :        :                   :         : QL0       :                
 VCCL_GXB                     : H3        : power  :                   : 1.2V    :           :                
@@ -251,8 +251,8 @@ VCCINT                       : K11       : power  :                   : 1.2V    
 GND                          : K12       : gnd    :                   :         :           :                
 VCCINT                       : K13       : power  :                   : 1.2V    :           :                
 VCCIO5                       : K14       : power  :                   : 2.5V    : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K15       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K16       :        :                   :         : 5         :                
+NumOfOrder2POS4              : K15       : output : 2.5 V             :         : 5         : N              
+table2                       : K16       : input  : 2.5 V             :         : 5         : N              
 GND+                         : K17       :        :                   :         : 5         :                
 GND+                         : K18       :        :                   :         : 5         :                
 GND                          : L1        : gnd    :                   :         :           :                
@@ -269,10 +269,10 @@ GND                          : L11       : gnd    :                   :         
 VCCINT                       : L12       : power  :                   : 1.2V    :           :                
 VCCA                         : L13       : power  :                   : 2.5V    :           :                
 GND                          : L14       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L15       :        :                   :         : 5         :                
+Display2h                    : L15       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : L16       :        :                   :         : 5         :                
 GND                          : L17       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L18       :        :                   :         : 5         :                
+NumOfOrder2POS1              : L18       : output : 2.5 V             :         : 5         : N              
 GXB_GND*                     : M1        :        :                   :         : QL0       :                
 GXB_GND*                     : M2        :        :                   :         : QL0       :                
 VCCL_GXB                     : M3        : power  :                   : 1.2V    :           :                
@@ -296,8 +296,8 @@ GND                          : N2        : gnd    :                   :         
 VCCA_GXB                     : N3        : power  :                   : 2.5V    :           :                
 VCCINT                       : N4        : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N5        :        :                   :         : 3         :                
-Display1d                    : N6        : output : 2.5 V             :         : 3         : N              
-Display2g                    : N7        : output : 2.5 V             :         : 3         : N              
+Display1h                    : N6        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N7        :        :                   :         : 3         :                
 VCCIO3                       : N8        : power  :                   : 2.5V    : 3         :                
 VCC_CLKIN3A                  : N9        : power  :                   : 2.5V    : 3A        :                
 GND                          : N10       : gnd    :                   :         :           :                
@@ -305,10 +305,10 @@ VCCIO4                       : N11       : power  :                   : 2.5V    
 VCCIO4                       : N12       : power  :                   : 2.5V    : 4         :                
 VCCIO4                       : N13       : power  :                   : 2.5V    : 4         :                
 VCCIO4                       : N14       : power  :                   : 2.5V    : 4         :                
-color_input0                 : N15       : input  : 2.5 V             :         : 5         : N              
-OpenerMinusBTN               : N16       : input  : 2.5 V             :         : 5         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : N17       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N18       :        :                   :         : 5         :                
+Random2                      : N15       : output : 2.5 V             :         : 5         : N              
+seed2                        : N16       : input  : 2.5 V             :         : 5         : N              
+NumOfOrder2POS3              : N17       : output : 2.5 V             :         : 5         : N              
+NumOfOrder2POS2              : N18       : output : 2.5 V             :         : 5         : N              
 GXB_NC                       : P1        :        :                   :         : QL0       :                
 GXB_NC                       : P2        :        :                   :         : QL0       :                
 GND                          : P3        : gnd    :                   :         :           :                
@@ -318,12 +318,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : P6        :        :                   :      
 VCCIO3                       : P7        : power  :                   : 2.5V    : 3         :                
 GND                          : P8        : gnd    :                   :         :           :                
 VCCIO3                       : P9        : power  :                   : 2.5V    : 3         :                
-TotalPrice7                  : P10       : output : 2.5 V             :         : 3         : N              
+OpenerMinusBTN               : P10       : input  : 2.5 V             :         : 3         : N              
 GND                          : P11       : gnd    :                   :         :           :                
-OpenerDisplay3               : P12       : output : 2.5 V             :         : 4         : N              
-OpenerDisplay1               : P13       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P12       :        :                   :         : 4         :                
+TotalPrice3                  : P13       : output : 2.5 V             :         : 4         : N              
 GND                          : P14       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P15       :        :                   :         : 4         :                
+Display2c                    : P15       : output : 2.5 V             :         : 4         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : P16       :        :                   :         : 5         :                
 GND                          : P17       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P18       :        :                   :         : 5         :                
@@ -334,15 +334,15 @@ VCCL_GXB                     : R4        : power  :                   : 1.2V    
 MSEL1                        : R5        :        :                   :         : 3         :                
 ~ALTERA_NCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : R6        : output : 2.5 V             :         : 3         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : R7        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R8        :        :                   :         : 3         :                
-TotalPrice4                  : R9        : output : 2.5 V             :         : 3         : N              
-TotalPrice1                  : R10       : output : 2.5 V             :         : 3         : N              
-OpenerDisplay4               : R11       : output : 2.5 V             :         : 4         : N              
-color_input2                 : R12       : input  : 2.5 V             :         : 4         : N              
-table2                       : R13       : input  : 2.5 V             :         : 4         : N              
-Display1a                    : R14       : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : R15       :        :                   :         : 4         :                
-NumOfOrder2POS3              : R16       : output : 2.5 V             :         : 5         : N              
+Display1g                    : R8        : output : 2.5 V             :         : 3         : N              
+color_input0                 : R9        : input  : 2.5 V             :         : 3         : N              
+Display2j                    : R10       : output : 2.5 V             :         : 3         : N              
+Display2l                    : R11       : output : 2.5 V             :         : 4         : N              
+Display2n                    : R12       : output : 2.5 V             :         : 4         : N              
+Display2k                    : R13       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R14       :        :                   :         : 4         :                
+Display2g                    : R15       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R16       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R17       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R18       :        :                   :         : 5         :                
 GXB_GND*                     : T1        :        :                   :         : QL0       :                
@@ -350,18 +350,18 @@ GXB_GND*                     : T2        :        :                   :         
 GND                          : T3        : gnd    :                   :         :           :                
 VCCA_GXB                     : T4        : power  :                   : 2.5V    :           :                
 MSEL0                        : T5        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T6        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 3         :                
-TotalPrice2                  : T8        : output : 2.5 V             :         : 3         : N              
-TotalPrice3                  : T9        : output : 2.5 V             :         : 3         : N              
-NumOfOrder2POS1              : T10       : output : 2.5 V             :         : 3         : N              
-TotalPrice6                  : T11       : output : 2.5 V             :         : 4         : N              
-OpenerPlusBTN                : T12       : input  : 2.5 V             :         : 4         : N              
-Display1l                    : T13       : output : 2.5 V             :         : 4         : N              
-Display1k                    : T14       : output : 2.5 V             :         : 4         : N              
-Display1b                    : T15       : output : 2.5 V             :         : 4         : N              
-Display1f                    : T16       : output : 2.5 V             :         : 4         : N              
-Display1n                    : T17       : output : 2.5 V             :         : 4         : N              
+Display1d                    : T6        : output : 2.5 V             :         : 3         : N              
+OpenerPlusBTN                : T7        : input  : 2.5 V             :         : 3         : N              
+table3                       : T8        : input  : 2.5 V             :         : 3         : N              
+table0                       : T9        : input  : 2.5 V             :         : 3         : N              
+OpenerDisplay1               : T10       : output : 2.5 V             :         : 3         : N              
+TotalPrice1                  : T11       : output : 2.5 V             :         : 4         : N              
+TotalPrice7                  : T12       : output : 2.5 V             :         : 4         : N              
+Display2a                    : T13       : output : 2.5 V             :         : 4         : N              
+TotalPrice2                  : T14       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T15       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T16       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T17       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T18       :        :                   :         : 5         :                
 GND                          : U1        : gnd    :                   :         :           :                
 GND                          : U2        : gnd    :                   :         :           :                
@@ -371,31 +371,31 @@ GND                          : U5        : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : U6        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U7        :        :                   :         : 3         :                
 GND                          : U8        : gnd    :                   :         :           :                
-Display2n                    : U9        : output : 2.5 V             :         : 3         : N              
-take_order                   : U10       : input  : 2.5 V             :         : 3         : N              
+OpenerDisplay2               : U9        : output : 2.5 V             :         : 3         : N              
+OpenerDisplay4               : U10       : output : 2.5 V             :         : 3         : N              
 GND                          : U11       : gnd    :                   :         :           :                
-OpenerDisplay2               : U12       : output : 2.5 V             :         : 4         : N              
-table3                       : U13       : input  : 2.5 V             :         : 4         : N              
+take_order                   : U12       : input  : 2.5 V             :         : 4         : N              
+Display2m                    : U13       : output : 2.5 V             :         : 4         : N              
 GND                          : U14       : gnd    :                   :         :           :                
-Display1i                    : U15       : output : 2.5 V             :         : 4         : N              
-table1                       : U16       : input  : 2.5 V             :         : 4         : N              
+TotalPrice5                  : U15       : output : 2.5 V             :         : 4         : N              
+Display2f                    : U16       : output : 2.5 V             :         : 4         : N              
 GND                          : U17       : gnd    :                   :         :           :                
-Display1c                    : U18       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U18       :        :                   :         : 4         :                
 RREF                         : V1        :        :                   :         :           :                
 GND                          : V2        : gnd    :                   :         :           :                
 NC                           : V3        :        :                   :         :           :                
 nSTATUS                      : V4        :        :                   :         : 3         :                
-seed1                        : V5        : input  : 2.5 V             :         : 3         : N              
-Random1                      : V6        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V5        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V6        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V7        :        :                   :         : 3         :                
-Display1h                    : V8        : output : 2.5 V             :         : 3         : N              
-NumOfOrder2POS2              : V9        : output : 2.5 V             :         : 3         : N              
-NumOfOrder2POS4              : V10       : output : 2.5 V             :         : 3         : N              
+OpenerDisplay3               : V8        : output : 2.5 V             :         : 3         : N              
+color_input1                 : V9        : input  : 2.5 V             :         : 3         : N              
+table1                       : V10       : input  : 2.5 V             :         : 3         : N              
 GND+                         : V11       :        :                   :         : 4         :                
 RandomGame_BTN               : V12       : input  : 2.5 V             :         : 4         : N              
-color_input1                 : V13       : input  : 2.5 V             :         : 4         : N              
-TotalPrice5                  : V14       : output : 2.5 V             :         : 4         : N              
-table0                       : V15       : input  : 2.5 V             :         : 4         : N              
-Display1e                    : V16       : output : 2.5 V             :         : 4         : N              
-Display1j                    : V17       : output : 2.5 V             :         : 4         : N              
-Display1m                    : V18       : output : 2.5 V             :         : 4         : N              
+Display2i                    : V13       : output : 2.5 V             :         : 4         : N              
+color_input2                 : V14       : input  : 2.5 V             :         : 4         : N              
+TotalPrice4                  : V15       : output : 2.5 V             :         : 4         : N              
+Display2d                    : V16       : output : 2.5 V             :         : 4         : N              
+Display2e                    : V17       : output : 2.5 V             :         : 4         : N              
+Display2b                    : V18       : output : 2.5 V             :         : 4         : N              
