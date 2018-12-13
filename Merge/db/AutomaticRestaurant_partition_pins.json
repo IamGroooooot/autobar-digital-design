@@ -188,6 +188,18 @@
 					"strict" : false
 				},
 				{
+					"name" : "TotalPrice9",
+					"strict" : false
+				},
+				{
+					"name" : "pin_000",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name1",
+					"strict" : false
+				},
+				{
 					"name" : "RandomGame_BTN",
 					"strict" : false
 				},

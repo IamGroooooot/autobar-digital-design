@@ -4,7 +4,7 @@
 ; Hierarchy        ; Input ; Constant Input ; Unused Input ; Floating Input ; Output ; Constant Output ; Unused Output ; Floating Output ; Bidir ; Constant Bidir ; Unused Bidir ; Input only Bidir ; Output only Bidir ;
 +------------------+-------+----------------+--------------+----------------+--------+-----------------+---------------+-----------------+-------+----------------+--------------+------------------+-------------------+
 ; DFF_SET          ; 56    ; 0              ; 1            ; 0              ; 28     ; 0               ; 0             ; 0               ; 0     ; 0              ; 0            ; 0                ; 0                 ;
-; Adder            ; 28    ; 0              ; 2            ; 0              ; 9      ; 0               ; 0             ; 0               ; 0     ; 0              ; 0            ; 0                ; 0                 ;
+; Adder            ; 55    ; 0              ; 2            ; 0              ; 9      ; 0               ; 0             ; 0               ; 0     ; 0              ; 0            ; 0                ; 0                 ;
 ; Remain_Table     ; 3     ; 0              ; 0            ; 0              ; 4      ; 0               ; 0             ; 0               ; 0     ; 0              ; 0            ; 0                ; 0                 ;
 ; table2SegDecoder ; 4     ; 3              ; 0            ; 3              ; 14     ; 3               ; 3             ; 3               ; 0     ; 0              ; 0            ; 0                ; 0                 ;
 ; OpenerRemoteCtrl ; 11    ; 0              ; 0            ; 0              ; 15     ; 0               ; 0             ; 0               ; 0     ; 0              ; 0            ; 0                ; 0                 ;

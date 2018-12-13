@@ -3407,6 +3407,41 @@ refer to the applicable agreement for further details.
 		(rectangle (rect 16 16 80 912))
 	)
 )
+(symbol
+	(rect 1896 1880 1928 1912)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 21 25 38)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(symbol
+	(rect 1896 912 1928 944)
+	(text "GND" (rect 8 6 29 16)(font "Arial" (font_size 6)))
+	(text "inst2" (rect 3 -6 25 11)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 32)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 20 23 32)(font "Courier New" (bold))(invisible))
+		(line (pt 16 24)(pt 16 32))
+	)
+	(drawing
+		(line (pt 8 24)(pt 16 16))
+		(line (pt 16 16)(pt 24 24))
+		(line (pt 8 24)(pt 24 24))
+	)
+	(flipx)
+)
 (connector
 	(pt 624 256)
 	(pt 624 288)
@@ -5095,6 +5130,222 @@ refer to the applicable agreement for further details.
 	(pt 1936 1112)
 	(pt 1936 1104)
 )
+(connector
+	(pt 1936 1424)
+	(pt 1912 1424)
+)
+(connector
+	(pt 1936 1440)
+	(pt 1912 1440)
+)
+(connector
+	(pt 1912 1424)
+	(pt 1912 1440)
+)
+(connector
+	(pt 1936 1456)
+	(pt 1912 1456)
+)
+(connector
+	(pt 1912 1440)
+	(pt 1912 1456)
+)
+(connector
+	(pt 1936 1472)
+	(pt 1912 1472)
+)
+(connector
+	(pt 1912 1456)
+	(pt 1912 1472)
+)
+(connector
+	(pt 1936 1488)
+	(pt 1912 1488)
+)
+(connector
+	(pt 1912 1472)
+	(pt 1912 1488)
+)
+(connector
+	(pt 1936 1504)
+	(pt 1912 1504)
+)
+(connector
+	(pt 1912 1488)
+	(pt 1912 1504)
+)
+(connector
+	(pt 1936 1520)
+	(pt 1912 1520)
+)
+(connector
+	(pt 1912 1504)
+	(pt 1912 1520)
+)
+(connector
+	(pt 1936 1536)
+	(pt 1912 1536)
+)
+(connector
+	(pt 1912 1520)
+	(pt 1912 1536)
+)
+(connector
+	(pt 1936 1552)
+	(pt 1912 1552)
+)
+(connector
+	(pt 1912 1536)
+	(pt 1912 1552)
+)
+(connector
+	(pt 1936 1568)
+	(pt 1912 1568)
+)
+(connector
+	(pt 1912 1552)
+	(pt 1912 1568)
+)
+(connector
+	(pt 1936 1584)
+	(pt 1912 1584)
+)
+(connector
+	(pt 1912 1568)
+	(pt 1912 1584)
+)
+(connector
+	(pt 1936 1600)
+	(pt 1912 1600)
+)
+(connector
+	(pt 1912 1584)
+	(pt 1912 1600)
+)
+(connector
+	(pt 1936 1616)
+	(pt 1912 1616)
+)
+(connector
+	(pt 1912 1600)
+	(pt 1912 1616)
+)
+(connector
+	(pt 1936 1632)
+	(pt 1912 1632)
+)
+(connector
+	(pt 1912 1616)
+	(pt 1912 1632)
+)
+(connector
+	(pt 1936 1648)
+	(pt 1912 1648)
+)
+(connector
+	(pt 1912 1632)
+	(pt 1912 1648)
+)
+(connector
+	(pt 1936 1664)
+	(pt 1912 1664)
+)
+(connector
+	(pt 1912 1648)
+	(pt 1912 1664)
+)
+(connector
+	(pt 1936 1680)
+	(pt 1912 1680)
+)
+(connector
+	(pt 1912 1664)
+	(pt 1912 1680)
+)
+(connector
+	(pt 1936 1696)
+	(pt 1912 1696)
+)
+(connector
+	(pt 1912 1680)
+	(pt 1912 1696)
+)
+(connector
+	(pt 1936 1712)
+	(pt 1912 1712)
+)
+(connector
+	(pt 1912 1696)
+	(pt 1912 1712)
+)
+(connector
+	(pt 1936 1728)
+	(pt 1912 1728)
+)
+(connector
+	(pt 1912 1712)
+	(pt 1912 1728)
+)
+(connector
+	(pt 1936 1744)
+	(pt 1912 1744)
+)
+(connector
+	(pt 1912 1728)
+	(pt 1912 1744)
+)
+(connector
+	(pt 1936 1760)
+	(pt 1912 1760)
+)
+(connector
+	(pt 1912 1744)
+	(pt 1912 1760)
+)
+(connector
+	(pt 1936 1776)
+	(pt 1912 1776)
+)
+(connector
+	(pt 1912 1760)
+	(pt 1912 1776)
+)
+(connector
+	(pt 1936 1792)
+	(pt 1912 1792)
+)
+(connector
+	(pt 1912 1776)
+	(pt 1912 1792)
+)
+(connector
+	(pt 1936 1808)
+	(pt 1912 1808)
+)
+(connector
+	(pt 1912 1792)
+	(pt 1912 1808)
+)
+(connector
+	(pt 1936 1824)
+	(pt 1912 1824)
+)
+(connector
+	(pt 1912 1808)
+	(pt 1912 1824)
+)
+(connector
+	(pt 1912 1824)
+	(pt 1912 1880)
+)
+(connector
+	(pt 1936 960)
+	(pt 1912 960)
+)
+(connector
+	(pt 1912 960)
+	(pt 1912 944)
+)
 (junction (pt 288 56))
 (junction (pt 952 400))
 (junction (pt 960 416))
@@ -5165,3 +5416,28 @@ refer to the applicable agreement for further details.
 (junction (pt 1088 1240))
 (junction (pt 1088 1200))
 (junction (pt 1088 1224))
+(junction (pt 1912 1440))
+(junction (pt 1912 1456))
+(junction (pt 1912 1472))
+(junction (pt 1912 1488))
+(junction (pt 1912 1504))
+(junction (pt 1912 1520))
+(junction (pt 1912 1536))
+(junction (pt 1912 1552))
+(junction (pt 1912 1568))
+(junction (pt 1912 1584))
+(junction (pt 1912 1600))
+(junction (pt 1912 1616))
+(junction (pt 1912 1632))
+(junction (pt 1912 1648))
+(junction (pt 1912 1664))
+(junction (pt 1912 1680))
+(junction (pt 1912 1696))
+(junction (pt 1912 1712))
+(junction (pt 1912 1728))
+(junction (pt 1912 1744))
+(junction (pt 1912 1760))
+(junction (pt 1912 1776))
+(junction (pt 1912 1792))
+(junction (pt 1912 1808))
+(junction (pt 1912 1824))

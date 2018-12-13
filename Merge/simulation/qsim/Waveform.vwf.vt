@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "12/12/2018 20:24:59"
+// Generated on "12/13/2018 20:58:34"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          AutomaticRestaurant
 // 
@@ -38,7 +38,7 @@ reg DoorPlusBTN;
 reg DoorResetBTN;
 reg OpenerMinusBTN;
 reg OpenerPlusBTN;
-reg OpenerResetBTN;
+reg OpenerSendBTN;
 reg RandomGame_BTN;
 reg seed1;
 reg seed2;
@@ -80,12 +80,25 @@ wire DoorDisplayRemain1;
 wire DoorDisplayRemain2;
 wire DoorDisplayRemain3;
 wire DoorDisplayRemain4;
+wire NumOfOrder2POS1;
+wire NumOfOrder2POS2;
+wire NumOfOrder2POS3;
+wire NumOfOrder2POS4;
 wire OpenerDisplay1;
 wire OpenerDisplay2;
 wire OpenerDisplay3;
 wire OpenerDisplay4;
 wire Random1;
 wire Random2;
+wire TotalPrice1;
+wire TotalPrice2;
+wire TotalPrice3;
+wire TotalPrice4;
+wire TotalPrice5;
+wire TotalPrice6;
+wire TotalPrice7;
+wire TotalPrice8;
+wire TotalPrice9;
 
 // assign statements (if any)                          
 AutomaticRestaurant i1 (
@@ -129,13 +142,17 @@ AutomaticRestaurant i1 (
 	.DoorMinusBTN(DoorMinusBTN),
 	.DoorPlusBTN(DoorPlusBTN),
 	.DoorResetBTN(DoorResetBTN),
+	.NumOfOrder2POS1(NumOfOrder2POS1),
+	.NumOfOrder2POS2(NumOfOrder2POS2),
+	.NumOfOrder2POS3(NumOfOrder2POS3),
+	.NumOfOrder2POS4(NumOfOrder2POS4),
 	.OpenerDisplay1(OpenerDisplay1),
 	.OpenerDisplay2(OpenerDisplay2),
 	.OpenerDisplay3(OpenerDisplay3),
 	.OpenerDisplay4(OpenerDisplay4),
 	.OpenerMinusBTN(OpenerMinusBTN),
 	.OpenerPlusBTN(OpenerPlusBTN),
-	.OpenerResetBTN(OpenerResetBTN),
+	.OpenerSendBTN(OpenerSendBTN),
 	.Random1(Random1),
 	.Random2(Random2),
 	.RandomGame_BTN(RandomGame_BTN),
@@ -145,7 +162,16 @@ AutomaticRestaurant i1 (
 	.table1(table1),
 	.table2(table2),
 	.table3(table3),
-	.take_order(take_order)
+	.take_order(take_order),
+	.TotalPrice1(TotalPrice1),
+	.TotalPrice2(TotalPrice2),
+	.TotalPrice3(TotalPrice3),
+	.TotalPrice4(TotalPrice4),
+	.TotalPrice5(TotalPrice5),
+	.TotalPrice6(TotalPrice6),
+	.TotalPrice7(TotalPrice7),
+	.TotalPrice8(TotalPrice8),
+	.TotalPrice9(TotalPrice9)
 );
 initial 
 begin 
@@ -156,55 +182,52 @@ end
 always
 begin
 	CLK1 = 1'b0;
-	CLK1 = #5000 1'b1;
-	#5000;
+	CLK1 = #10000 1'b1;
+	#10000;
 end 
 
 // color_input0
 initial
 begin
 	color_input0 = 1'b0;
+	color_input0 = #100000 1'b1;
+	color_input0 = #70000 1'b0;
 end 
 
 // color_input1
 initial
 begin
 	color_input1 = 1'b0;
+	color_input1 = #100000 1'b1;
+	color_input1 = #70000 1'b0;
 end 
 
 // color_input2
 initial
 begin
 	color_input2 = 1'b0;
-end 
-
-// DoorPlusBTN
-initial
-begin
-	DoorPlusBTN = 1'b0;
-	DoorPlusBTN = #10000 1'b1;
-	DoorPlusBTN = #30000 1'b0;
+	color_input2 = #100000 1'b1;
+	color_input2 = #70000 1'b0;
 end 
 
 // DoorMinusBTN
 initial
 begin
 	DoorMinusBTN = 1'b0;
+	DoorMinusBTN = #20000 1'b1;
+	DoorMinusBTN = #60000 1'b0;
+end 
+
+// DoorPlusBTN
+initial
+begin
+	DoorPlusBTN = 1'b0;
 end 
 
 // DoorResetBTN
 initial
 begin
 	DoorResetBTN = 1'b0;
-	DoorResetBTN = #40000 1'b1;
-	DoorResetBTN = #20000 1'b0;
-end 
-
-// OpenerPlusBTN
-initial
-begin
-	OpenerPlusBTN = 1'b1;
-	OpenerPlusBTN = #40000 1'b0;
 end 
 
 // OpenerMinusBTN
@@ -213,42 +236,44 @@ begin
 	OpenerMinusBTN = 1'b0;
 end 
 
-// OpenerResetBTN
+// OpenerPlusBTN
 initial
 begin
-	OpenerResetBTN = 1'b0;
-	OpenerResetBTN = #40000 1'b1;
-	OpenerResetBTN = #20000 1'b0;
+	OpenerPlusBTN = 1'b0;
+	OpenerPlusBTN = #140000 1'b1;
+	OpenerPlusBTN = #70000 1'b0;
+end 
+
+// OpenerSendBTN
+initial
+begin
+	OpenerSendBTN = 1'b0;
+	OpenerSendBTN = #210000 1'b1;
+	OpenerSendBTN = #60000 1'b0;
 end 
 
 // RandomGame_BTN
 initial
 begin
 	RandomGame_BTN = 1'b0;
-	RandomGame_BTN = #70000 1'b1;
-	RandomGame_BTN = #100000 1'b0;
 end 
 
 // seed1
-always
+initial
 begin
 	seed1 = 1'b0;
-	seed1 = #5000 1'b1;
-	#5000;
 end 
 
 // seed2
-always
+initial
 begin
 	seed2 = 1'b0;
-	seed2 = #2500 1'b1;
-	#2500;
 end 
 
 // table0
 initial
 begin
-	table0 = 1'b0;
+	table0 = 1'b1;
 end 
 
 // table1
@@ -273,6 +298,8 @@ end
 initial
 begin
 	take_order = 1'b0;
+	take_order = #290000 1'b1;
+	take_order = #100000 1'b0;
 end 
 endmodule
 

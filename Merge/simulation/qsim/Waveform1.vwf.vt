@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "12/13/2018 16:55:24"
+// Generated on "12/13/2018 21:02:18"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          AutomaticRestaurant
 // 
@@ -39,6 +39,8 @@ reg DoorResetBTN;
 reg OpenerMinusBTN;
 reg OpenerPlusBTN;
 reg OpenerSendBTN;
+reg pin_000;
+reg pin_name1;
 reg RandomGame_BTN;
 reg seed1;
 reg seed2;
@@ -84,10 +86,10 @@ wire NumOfOrder2POS1;
 wire NumOfOrder2POS2;
 wire NumOfOrder2POS3;
 wire NumOfOrder2POS4;
-wire pin_name1;
-wire pin_name2;
-wire pin_name3;
-wire pin_name4;
+wire OpenerDisplay1;
+wire OpenerDisplay2;
+wire OpenerDisplay3;
+wire OpenerDisplay4;
 wire Random1;
 wire Random2;
 wire TotalPrice1;
@@ -146,13 +148,15 @@ AutomaticRestaurant i1 (
 	.NumOfOrder2POS2(NumOfOrder2POS2),
 	.NumOfOrder2POS3(NumOfOrder2POS3),
 	.NumOfOrder2POS4(NumOfOrder2POS4),
+	.OpenerDisplay1(OpenerDisplay1),
+	.OpenerDisplay2(OpenerDisplay2),
+	.OpenerDisplay3(OpenerDisplay3),
+	.OpenerDisplay4(OpenerDisplay4),
 	.OpenerMinusBTN(OpenerMinusBTN),
 	.OpenerPlusBTN(OpenerPlusBTN),
 	.OpenerSendBTN(OpenerSendBTN),
+	.pin_000(pin_000),
 	.pin_name1(pin_name1),
-	.pin_name2(pin_name2),
-	.pin_name3(pin_name3),
-	.pin_name4(pin_name4),
 	.Random1(Random1),
 	.Random2(Random2),
 	.RandomGame_BTN(RandomGame_BTN),
@@ -190,24 +194,32 @@ end
 initial
 begin
 	color_input0 = 1'b0;
+	color_input0 = #20000 1'b1;
+	color_input0 = #170000 1'b0;
 end 
 
 // color_input1
 initial
 begin
 	color_input1 = 1'b0;
+	color_input1 = #20000 1'b1;
+	color_input1 = #170000 1'b0;
 end 
 
 // color_input2
 initial
 begin
 	color_input2 = 1'b0;
+	color_input2 = #20000 1'b1;
+	color_input2 = #170000 1'b0;
 end 
 
 // DoorMinusBTN
 initial
 begin
 	DoorMinusBTN = 1'b0;
+	DoorMinusBTN = #10000 1'b1;
+	DoorMinusBTN = #40000 1'b0;
 end 
 
 // DoorPlusBTN
@@ -232,42 +244,52 @@ end
 initial
 begin
 	OpenerPlusBTN = 1'b0;
+	OpenerPlusBTN = #80000 1'b1;
+	OpenerPlusBTN = #50000 1'b0;
 end 
 
 // OpenerSendBTN
 initial
 begin
 	OpenerSendBTN = 1'b0;
+	OpenerSendBTN = #110000 1'b1;
+	OpenerSendBTN = #60000 1'b0;
+end 
+
+// pin_000
+initial
+begin
+	pin_000 = 1'b0;
+end 
+
+// pin_name1
+initial
+begin
+	pin_name1 = 1'b0;
 end 
 
 // RandomGame_BTN
 initial
 begin
 	RandomGame_BTN = 1'b0;
-	RandomGame_BTN = #30000 1'b1;
-	RandomGame_BTN = #60000 1'b0;
 end 
 
 // seed1
-always
+initial
 begin
 	seed1 = 1'b0;
-	seed1 = #5000 1'b1;
-	#5000;
 end 
 
 // seed2
-always
+initial
 begin
 	seed2 = 1'b0;
-	seed2 = #2500 1'b1;
-	#2500;
 end 
 
 // table0
 initial
 begin
-	table0 = 1'b0;
+	table0 = 1'b1;
 end 
 
 // table1
@@ -292,6 +314,8 @@ end
 initial
 begin
 	take_order = 1'b0;
+	take_order = #160000 1'b1;
+	take_order = #150000 1'b0;
 end 
 endmodule
 
