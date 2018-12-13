@@ -2,76 +2,76 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1200mV 85C Model Setup 'order_register:Order_Register|inst87'
+Slack : -2.190
+TNS   : -41.783
+
 Type  : Slow 1200mV 85C Model Setup 'OpenerSendBTN'
-Slack : -2.913
-TNS   : -21.318
+Slack : -2.091
+TNS   : -17.674
 
 Type  : Slow 1200mV 85C Model Setup 'OpenerMinusBTN'
-Slack : -2.209
-TNS   : -6.186
-
-Type  : Slow 1200mV 85C Model Setup 'order_register:Order_Register|inst87'
-Slack : -2.095
-TNS   : -22.753
+Slack : -1.892
+TNS   : -5.470
 
 Type  : Slow 1200mV 85C Model Setup 'DoorMinusBTN'
-Slack : -1.101
-TNS   : -3.243
+Slack : -1.248
+TNS   : -3.628
 
 Type  : Slow 1200mV 85C Model Setup 'CLK1'
-Slack : -0.825
-TNS   : -11.189
+Slack : -0.585
+TNS   : -8.698
 
 Type  : Slow 1200mV 85C Model Setup 'RandomGame_BTN'
-Slack : -0.094
-TNS   : -0.184
-
-Type  : Slow 1200mV 85C Model Hold 'CLK1'
-Slack : -0.094
-TNS   : -0.312
+Slack : -0.091
+TNS   : -0.181
 
 Type  : Slow 1200mV 85C Model Hold 'OpenerMinusBTN'
-Slack : 0.014
-TNS   : 0.000
+Slack : -0.049
+TNS   : -0.095
+
+Type  : Slow 1200mV 85C Model Hold 'CLK1'
+Slack : -0.021
+TNS   : -0.035
 
 Type  : Slow 1200mV 85C Model Hold 'DoorMinusBTN'
-Slack : 0.096
+Slack : 0.225
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'RandomGame_BTN'
-Slack : 0.458
+Slack : 0.457
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'order_register:Order_Register|inst87'
-Slack : 0.721
+Slack : 1.245
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'OpenerSendBTN'
-Slack : 1.804
+Slack : 1.763
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'CLK1'
-Slack : -5.421
-TNS   : -132.236
+Slack : -5.962
+TNS   : -136.327
 
 Type  : Slow 1200mV 85C Model Recovery 'OpenerSendBTN'
-Slack : -1.320
-TNS   : -12.847
+Slack : -1.070
+TNS   : -11.578
 
 Type  : Slow 1200mV 85C Model Recovery 'OpenerMinusBTN'
-Slack : 2.677
+Slack : 1.884
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'OpenerMinusBTN'
-Slack : -2.561
-TNS   : -10.244
+Slack : -1.734
+TNS   : -6.936
 
 Type  : Slow 1200mV 85C Model Removal 'CLK1'
-Slack : 0.571
+Slack : 0.680
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'OpenerSendBTN'
-Slack : 1.227
+Slack : 1.187
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK1'
@@ -80,7 +80,7 @@ TNS   : -61.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'OpenerMinusBTN'
 Slack : -3.000
-TNS   : -14.240
+TNS   : -14.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'OpenerSendBTN'
 Slack : -3.000
@@ -96,78 +96,78 @@ TNS   : -5.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'order_register:Order_Register|inst87'
 Slack : -1.000
-TNS   : -26.000
-
-Type  : Slow 1200mV 0C Model Setup 'OpenerSendBTN'
-Slack : -2.554
-TNS   : -18.314
-
-Type  : Slow 1200mV 0C Model Setup 'OpenerMinusBTN'
-Slack : -1.890
-TNS   : -5.197
+TNS   : -27.000
 
 Type  : Slow 1200mV 0C Model Setup 'order_register:Order_Register|inst87'
-Slack : -1.867
-TNS   : -17.950
+Slack : -1.938
+TNS   : -35.961
+
+Type  : Slow 1200mV 0C Model Setup 'OpenerSendBTN'
+Slack : -1.830
+TNS   : -15.117
+
+Type  : Slow 1200mV 0C Model Setup 'OpenerMinusBTN'
+Slack : -1.599
+TNS   : -4.531
 
 Type  : Slow 1200mV 0C Model Setup 'DoorMinusBTN'
-Slack : -0.878
-TNS   : -2.604
+Slack : -1.005
+TNS   : -2.918
 
 Type  : Slow 1200mV 0C Model Setup 'CLK1'
-Slack : -0.668
-TNS   : -6.278
+Slack : -0.430
+TNS   : -4.268
 
 Type  : Slow 1200mV 0C Model Setup 'RandomGame_BTN'
-Slack : 0.033
+Slack : 0.035
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'CLK1'
-Slack : -0.051
-TNS   : -0.115
-
 Type  : Slow 1200mV 0C Model Hold 'OpenerMinusBTN'
-Slack : 0.002
+Slack : -0.031
+TNS   : -0.059
+
+Type  : Slow 1200mV 0C Model Hold 'CLK1'
+Slack : 0.015
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'DoorMinusBTN'
-Slack : 0.032
+Slack : 0.148
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'RandomGame_BTN'
-Slack : 0.408
+Slack : 0.407
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'order_register:Order_Register|inst87'
-Slack : 0.621
+Slack : 1.143
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'OpenerSendBTN'
-Slack : 1.645
+Slack : 1.611
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Recovery 'CLK1'
-Slack : -4.785
-TNS   : -115.359
+Slack : -5.298
+TNS   : -119.348
 
 Type  : Slow 1200mV 0C Model Recovery 'OpenerSendBTN'
-Slack : -1.076
-TNS   : -10.338
+Slack : -0.849
+TNS   : -9.183
 
 Type  : Slow 1200mV 0C Model Recovery 'OpenerMinusBTN'
-Slack : 2.456
+Slack : 1.759
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'OpenerMinusBTN'
-Slack : -2.301
-TNS   : -9.204
+Slack : -1.570
+TNS   : -6.280
 
 Type  : Slow 1200mV 0C Model Removal 'CLK1'
-Slack : 0.580
+Slack : 0.665
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'OpenerSendBTN'
-Slack : 1.102
+Slack : 1.054
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK1'
@@ -192,102 +192,102 @@ TNS   : -5.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'order_register:Order_Register|inst87'
 Slack : -1.000
-TNS   : -26.000
+TNS   : -27.000
 
 Type  : Fast 1200mV 0C Model Setup 'OpenerSendBTN'
-Slack : -1.777
-TNS   : -9.291
+Slack : -1.271
+TNS   : -7.178
 
 Type  : Fast 1200mV 0C Model Setup 'order_register:Order_Register|inst87'
-Slack : -0.995
-TNS   : -5.956
+Slack : -1.081
+TNS   : -16.197
 
 Type  : Fast 1200mV 0C Model Setup 'OpenerMinusBTN'
-Slack : -0.791
-TNS   : -2.069
+Slack : -0.602
+TNS   : -1.647
 
 Type  : Fast 1200mV 0C Model Setup 'DoorMinusBTN'
-Slack : -0.212
-TNS   : -0.590
+Slack : -0.307
+TNS   : -0.857
 
 Type  : Fast 1200mV 0C Model Setup 'CLK1'
-Slack : -0.081
-TNS   : -0.264
+Slack : 0.062
+TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'RandomGame_BTN'
-Slack : 0.389
+Slack : 0.391
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'CLK1'
-Slack : -0.185
-TNS   : -1.135
+Slack : -0.138
+TNS   : -0.718
 
 Type  : Fast 1200mV 0C Model Hold 'OpenerMinusBTN'
-Slack : -0.140
-TNS   : -0.386
+Slack : -0.092
+TNS   : -0.184
 
 Type  : Fast 1200mV 0C Model Hold 'DoorMinusBTN'
-Slack : -0.061
-TNS   : -0.073
+Slack : 0.047
+TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'RandomGame_BTN'
 Slack : 0.210
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'order_register:Order_Register|inst87'
-Slack : 0.447
+Slack : 0.728
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'OpenerSendBTN'
-Slack : 0.941
+Slack : 0.931
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Recovery 'CLK1'
-Slack : -2.861
-TNS   : -64.382
+Slack : -3.206
+TNS   : -66.204
 
 Type  : Fast 1200mV 0C Model Recovery 'OpenerSendBTN'
-Slack : -0.343
-TNS   : -2.674
+Slack : -0.182
+TNS   : -1.890
 
 Type  : Fast 1200mV 0C Model Recovery 'OpenerMinusBTN'
-Slack : 2.038
+Slack : 1.553
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'OpenerMinusBTN'
-Slack : -1.528
-TNS   : -6.112
+Slack : -1.019
+TNS   : -4.076
 
 Type  : Fast 1200mV 0C Model Removal 'CLK1'
-Slack : 0.154
+Slack : 0.202
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'OpenerSendBTN'
-Slack : 0.646
+Slack : 0.625
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK1'
 Slack : -3.000
-TNS   : -61.798
+TNS   : -61.684
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'OpenerMinusBTN'
 Slack : -3.000
-TNS   : -15.572
+TNS   : -15.315
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'OpenerSendBTN'
 Slack : -3.000
-TNS   : -14.253
+TNS   : -14.264
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DoorMinusBTN'
 Slack : -3.000
-TNS   : -7.584
+TNS   : -7.476
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RandomGame_BTN'
 Slack : -3.000
-TNS   : -5.049
+TNS   : -5.052
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'order_register:Order_Register|inst87'
 Slack : -1.000
-TNS   : -26.033
+TNS   : -27.000
 
 ------------------------------------------------------------

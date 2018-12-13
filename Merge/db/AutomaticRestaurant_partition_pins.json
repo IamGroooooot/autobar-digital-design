@@ -168,6 +168,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "TotalPrice8",
+					"strict" : false
+				},
+				{
 					"name" : "OpenerDisplay1",
 					"strict" : false
 				},

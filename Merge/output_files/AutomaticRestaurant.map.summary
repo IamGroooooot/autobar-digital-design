@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Thu Dec 13 19:15:29 2018
+Analysis & Synthesis Status : Successful - Thu Dec 13 19:47:57 2018
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : AutomaticRestaurant
 Top-level Entity Name : AutomaticRestaurant
 Family : Cyclone IV GX
-Total logic elements : 242
-    Total combinational functions : 142
-    Dedicated logic registers : 110
-Total registers : 110
+Total logic elements : 239
+    Total combinational functions : 138
+    Dedicated logic registers : 111
+Total registers : 111
 Total pins : 69
 Total virtual pins : 0
 Total memory bits : 0

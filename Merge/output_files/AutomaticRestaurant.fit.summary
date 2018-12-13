@@ -1,14 +1,14 @@
-Fitter Status : Successful - Thu Dec 13 19:15:43 2018
+Fitter Status : Successful - Thu Dec 13 19:48:08 2018
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : AutomaticRestaurant
 Top-level Entity Name : AutomaticRestaurant
 Family : Cyclone IV GX
 Device : EP4CGX22CF19C6
 Timing Models : Final
-Total logic elements : 228 / 21,280 ( 1 % )
-    Total combinational functions : 142 / 21,280 ( < 1 % )
-    Dedicated logic registers : 110 / 21,280 ( < 1 % )
-Total registers : 110
+Total logic elements : 225 / 21,280 ( 1 % )
+    Total combinational functions : 138 / 21,280 ( < 1 % )
+    Dedicated logic registers : 111 / 21,280 ( < 1 % )
+Total registers : 111
 Total pins : 69 / 167 ( 41 % )
 Total virtual pins : 0
 Total memory bits : 0 / 774,144 ( 0 % )
