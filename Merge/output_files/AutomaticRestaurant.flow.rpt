@@ -1,5 +1,5 @@
 Flow report for AutomaticRestaurant
-Thu Dec 13 20:29:34 2018
+Thu Dec 13 20:37:58 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,12 +40,12 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Dec 13 20:29:28 2018       ;
+; Flow Status                        ; Successful - Thu Dec 13 20:37:48 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; AutomaticRestaurant                         ;
 ; Top-level Entity Name              ; AutomaticRestaurant                         ;
 ; Family                             ; Cyclone IV GX                               ;
-; Total logic elements               ; 225 / 21,280 ( 1 % )                        ;
+; Total logic elements               ; 223 / 21,280 ( 1 % )                        ;
 ;     Total combinational functions  ; 138 / 21,280 ( < 1 % )                      ;
 ;     Dedicated logic registers      ; 111 / 21,280 ( < 1 % )                      ;
 ; Total registers                    ; 111                                         ;
@@ -68,7 +68,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/13/2018 20:28:58 ;
+; Start date & time ; 12/13/2018 20:36:57 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; AutomaticRestaurant ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 128531086805300.154470053710988        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 128531086805300.154470101700536        ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -92,11 +92,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4868 MB             ; 00:00:27                           ;
-; Fitter               ; 00:00:12     ; 1.0                     ; 5625 MB             ; 00:00:16                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4765 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 4786 MB             ; 00:00:03                           ;
-; Total                ; 00:00:32     ; --                      ; --                  ; 00:00:47                           ;
+; Analysis & Synthesis ; 00:00:19     ; 1.0                     ; 4851 MB             ; 00:00:40                           ;
+; Fitter               ; 00:00:23     ; 1.0                     ; 5649 MB             ; 00:00:30                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4765 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:08     ; 1.1                     ; 4784 MB             ; 00:00:06                           ;
+; Total                ; 00:00:53     ; --                      ; --                  ; 00:01:19                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -4472,118 +4472,6 @@ refer to the applicable agreement for further details.
 	(pt 1256 1112)
 )
 (connector
-	(pt 1896 976)
-	(pt 1936 976)
-)
-(connector
-	(pt 1896 992)
-	(pt 1936 992)
-)
-(connector
-	(pt 1896 1008)
-	(pt 1936 1008)
-)
-(connector
-	(pt 1896 1024)
-	(pt 1936 1024)
-)
-(connector
-	(pt 1896 1040)
-	(pt 1936 1040)
-)
-(connector
-	(pt 1896 1056)
-	(pt 1936 1056)
-)
-(connector
-	(pt 1896 1072)
-	(pt 1936 1072)
-)
-(connector
-	(pt 1896 1088)
-	(pt 1936 1088)
-)
-(connector
-	(pt 1896 1104)
-	(pt 1936 1104)
-)
-(connector
-	(pt 1896 1120)
-	(pt 1936 1120)
-)
-(connector
-	(pt 1896 1136)
-	(pt 1936 1136)
-)
-(connector
-	(pt 1896 1152)
-	(pt 1936 1152)
-)
-(connector
-	(pt 1896 1168)
-	(pt 1936 1168)
-)
-(connector
-	(pt 1896 1184)
-	(pt 1936 1184)
-)
-(connector
-	(pt 1896 1200)
-	(pt 1936 1200)
-)
-(connector
-	(pt 1896 1216)
-	(pt 1936 1216)
-)
-(connector
-	(pt 1896 1232)
-	(pt 1936 1232)
-)
-(connector
-	(pt 1896 1248)
-	(pt 1936 1248)
-)
-(connector
-	(pt 1896 1264)
-	(pt 1936 1264)
-)
-(connector
-	(pt 1896 1280)
-	(pt 1936 1280)
-)
-(connector
-	(pt 1896 1296)
-	(pt 1936 1296)
-)
-(connector
-	(pt 1896 1312)
-	(pt 1936 1312)
-)
-(connector
-	(pt 1896 1328)
-	(pt 1936 1328)
-)
-(connector
-	(pt 1896 1344)
-	(pt 1936 1344)
-)
-(connector
-	(pt 1896 1360)
-	(pt 1936 1360)
-)
-(connector
-	(pt 1896 1376)
-	(pt 1936 1376)
-)
-(connector
-	(pt 1896 1392)
-	(pt 1936 1392)
-)
-(connector
-	(pt 1896 1408)
-	(pt 1936 1408)
-)
-(connector
 	(pt 1520 976)
 	(pt 1520 992)
 )
@@ -5058,6 +4946,154 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 976 448)
 	(pt 976 1048)
+)
+(connector
+	(pt 1896 1104)
+	(pt 1928 1104)
+)
+(connector
+	(pt 1896 1120)
+	(pt 1920 1120)
+)
+(connector
+	(pt 1896 1136)
+	(pt 1912 1136)
+)
+(connector
+	(pt 1896 1152)
+	(pt 1904 1152)
+)
+(connector
+	(pt 1928 1104)
+	(pt 1928 1120)
+)
+(connector
+	(pt 1920 1120)
+	(pt 1920 1136)
+)
+(connector
+	(pt 1896 976)
+	(pt 1936 976)
+)
+(connector
+	(pt 1896 992)
+	(pt 1936 992)
+)
+(connector
+	(pt 1896 1008)
+	(pt 1936 1008)
+)
+(connector
+	(pt 1896 1024)
+	(pt 1936 1024)
+)
+(connector
+	(pt 1896 1040)
+	(pt 1936 1040)
+)
+(connector
+	(pt 1896 1056)
+	(pt 1936 1056)
+)
+(connector
+	(pt 1896 1072)
+	(pt 1936 1072)
+)
+(connector
+	(pt 1896 1088)
+	(pt 1936 1088)
+)
+(connector
+	(pt 1928 1120)
+	(pt 1936 1120)
+)
+(connector
+	(pt 1920 1136)
+	(pt 1936 1136)
+)
+(connector
+	(pt 1896 1168)
+	(pt 1936 1168)
+)
+(connector
+	(pt 1896 1184)
+	(pt 1936 1184)
+)
+(connector
+	(pt 1896 1200)
+	(pt 1936 1200)
+)
+(connector
+	(pt 1896 1216)
+	(pt 1936 1216)
+)
+(connector
+	(pt 1896 1232)
+	(pt 1936 1232)
+)
+(connector
+	(pt 1896 1248)
+	(pt 1936 1248)
+)
+(connector
+	(pt 1896 1264)
+	(pt 1936 1264)
+)
+(connector
+	(pt 1896 1280)
+	(pt 1936 1280)
+)
+(connector
+	(pt 1896 1296)
+	(pt 1936 1296)
+)
+(connector
+	(pt 1896 1312)
+	(pt 1936 1312)
+)
+(connector
+	(pt 1896 1328)
+	(pt 1936 1328)
+)
+(connector
+	(pt 1896 1344)
+	(pt 1936 1344)
+)
+(connector
+	(pt 1896 1360)
+	(pt 1936 1360)
+)
+(connector
+	(pt 1896 1376)
+	(pt 1936 1376)
+)
+(connector
+	(pt 1896 1392)
+	(pt 1936 1392)
+)
+(connector
+	(pt 1896 1408)
+	(pt 1936 1408)
+)
+(connector
+	(pt 1912 1136)
+	(pt 1912 1152)
+)
+(connector
+	(pt 1912 1152)
+	(pt 1936 1152)
+)
+(connector
+	(pt 1904 1152)
+	(pt 1904 1112)
+)
+(connector
+	(pt 1904 1112)
+	(pt 1936 1112)
+)
+(connector
+	(pt 1936 1112)
+	(pt 1936 1104)
 )
 (junction (pt 288 56))
 (junction (pt 952 400))
