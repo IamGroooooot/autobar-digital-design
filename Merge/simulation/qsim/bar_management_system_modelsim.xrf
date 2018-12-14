@@ -2,6 +2,7 @@ vendor_name = ModelSim
 source_file = 1, C:/Users/GemutsRuhe/Desktop/bar_management_system/bar_management_system.bdf
 source_file = 1, C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform.vwf
 source_file = 1, C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform1.vwf
+source_file = 1, C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform2.vwf
 source_file = 1, C:/Users/GemutsRuhe/Desktop/bar_management_system/pseudo_rand_num_generator.bdf
 source_file = 1, C:/Users/GemutsRuhe/Desktop/bar_management_system/id7_segement_decoder.bdf
 source_file = 1, C:/Users/GemutsRuhe/Desktop/bar_management_system/order_register.bdf

@@ -1,5 +1,5 @@
 Flow report for bar_management_system
-Fri Dec 14 01:35:47 2018
+Fri Dec 14 11:28:07 2018
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Dec 14 01:35:47 2018       ;
+; Flow Status                        ; Successful - Fri Dec 14 11:28:07 2018       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; bar_management_system                       ;
 ; Top-level Entity Name              ; bar_management_system                       ;
@@ -96,7 +96,13 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4660 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4660 MB             ; 00:00:02                           ;
-; Total                ; 00:00:37     ; --                      ; --                  ; 00:00:56                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4660 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4661 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4661 MB             ; 00:00:01                           ;
+; Total                ; 00:00:46     ; --                      ; --                  ; 00:01:03                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -109,6 +115,12 @@ refer to the applicable agreement for further details.
 ; Fitter               ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-4NN6KTT  ; Windows 10 ; 10.0       ; x86_64         ;
@@ -126,6 +138,12 @@ quartus_sta bar_management_system -c bar_management_system
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source=C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform2.vwf --testbench_file=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/Waveform2.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/ bar_management_system -c bar_management_system
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source=C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform2.vwf --testbench_file=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/ bar_management_system -c bar_management_system
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source=C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform3.vwf --testbench_file=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/Waveform3.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/ bar_management_system -c bar_management_system
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source=C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform3.vwf --testbench_file=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/Waveform3.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/ bar_management_system -c bar_management_system
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source=C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform3.vwf --testbench_file=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/Waveform3.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/ bar_management_system -c bar_management_system
 
 
