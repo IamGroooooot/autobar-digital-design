@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source="C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform3.vwf" --testbench_file="C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/Waveform3.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source="C:\Users\duryk\del\Merge/Waveform3.vwf" --testbench_file="C:\Users\duryk\del\Merge/simulation/qsim/Waveform3.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -25,11 +25,11 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Fri Dec 14 11:28:04 2018
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source=C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform3.vwf --testbench_file=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/Waveform3.vwf.vt
+    Info: Processing started: Fri Dec 14 12:28:21 2018
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off bar_management_system -c bar_management_system --vector_source=C:\Users\duryk\del\Merge/Waveform3.vwf --testbench_file=C:\Users\duryk\del\Merge/simulation/qsim/Waveform3.vwf.vt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
-files
+_priceAbit" in vector source file when writing test bench files
 
 Completed successfully. 
 
@@ -37,7 +37,7 @@ Completed successfully.
 
 **** Generating the timing simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/" bar_management_system -c bar_management_system
+quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="C:\Users\duryk\del\Merge/simulation/qsim/" bar_management_system -c bar_management_system
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -55,28 +55,28 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Fri Dec 14 11:28:05 2018
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/ bar_management_system -c bar_management_system
+    Info: Processing started: Fri Dec 14 12:28:22 2018
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=C:\Users\duryk\del\Merge/simulation/qsim/ bar_management_system -c bar_management_system
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file bar_management_system_6_1200mv_85c_slow.vo in folder "C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file bar_management_system_6_1200mv_0c_slow.vo in folder "C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file bar_management_system_min_1200mv_0c_fast.vo in folder "C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file bar_management_system.vo in folder "C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file bar_management_system_6_1200mv_85c_v_slow.sdo in folder "C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file bar_management_system_6_1200mv_0c_v_slow.sdo in folder "C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file bar_management_system_min_1200mv_0c_v_fast.sdo in folder "C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file bar_management_system_v.sdo in folder "C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file bar_management_system_6_1200mv_85c_slow.vo in folder "C:/Users/duryk/del/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file bar_management_system_6_1200mv_0c_slow.vo in folder "C:/Users/duryk/del/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file bar_management_system_min_1200mv_0c_fast.vo in folder "C:/Users/duryk/del/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file bar_management_system.vo in folder "C:/Users/duryk/del/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file bar_management_system_6_1200mv_85c_v_slow.sdo in folder "C:/Users/duryk/del/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file bar_management_system_6_1200mv_0c_v_slow.sdo in folder "C:/Users/duryk/del/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file bar_management_system_min_1200mv_0c_v_fast.sdo in folder "C:/Users/duryk/del/Merge/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file bar_management_system_v.sdo in folder "C:/Users/duryk/del/Merge/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4661 megabytes
-    Info: Processing ended: Fri Dec 14 11:28:07 2018
+    Info: Peak virtual memory: 4660 megabytes
+    Info: Processing ended: Fri Dec 14 12:28:24 2018
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
 
 Completed successfully. 
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/bar_management_system.do generated.
+C:/Users/duryk/del/Merge/simulation/qsim/bar_management_system.do generated.
 
 Completed successfully. 
 
@@ -86,13 +86,16 @@ c:/intelfpga_lite/18.1/modelsim_ase/win32aloem//vsim -c -do bar_management_syste
 
 Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 
+
 # 10.5b
+
 
 # do bar_management_system.do
 
 # ** Warning: (vlib-34) Library already exists at "work".
+
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:08 on Dec 14,2018
+# Start time: 12:28:27 on Dec 14,2018
 # vlog -work work bar_management_system.vo 
 # -- Compiling module bar_management_system
 
@@ -100,21 +103,23 @@ Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # 
 # Top level modules:
 # 	bar_management_system
-# End time: 11:28:08 on Dec 14,2018, Elapsed time: 0:00:00
+
+# End time: 12:28:27 on Dec 14,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:08 on Dec 14,2018
+# Start time: 12:28:28 on Dec 14,2018
 # vlog -work work Waveform3.vwf.vt 
 
 # -- Compiling module bar_management_system_vlg_vec_tst
 # 
 # Top level modules:
 # 	bar_management_system_vlg_vec_tst
-# End time: 11:28:08 on Dec 14,2018, Elapsed time: 0:00:00
+
+# End time: 12:28:28 on Dec 14,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.bar_management_system_vlg_vec_tst 
-# Start time: 11:28:08 on Dec 14,2018
+# Start time: 12:28:29 on Dec 14,2018
 # Loading work.bar_management_system_vlg_vec_tst
 # Loading work.bar_management_system
 # Loading work.hard_block
@@ -132,23 +137,24 @@ Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # Loading timing data from bar_management_system_v.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
 #    Time: 0 ps  Iteration: 0  Instance: /bar_management_system_vlg_vec_tst File: Waveform3.vwf.vt
+
 # after#26
 # ** Note: $finish    : Waveform3.vwf.vt(184)
 #    Time: 1 us  Iteration: 0  Instance: /bar_management_system_vlg_vec_tst
-# End time: 11:28:09 on Dec 14,2018, Elapsed time: 0:00:01
+# End time: 12:28:30 on Dec 14,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/GemutsRuhe/Desktop/bar_management_system/Waveform3.vwf...
+Reading C:/Users/duryk/del/Merge/Waveform3.vwf...
 
-Reading C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/bar_management_system.msim.vcd...
+Reading C:/Users/duryk/del/Merge/simulation/qsim/bar_management_system.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/GemutsRuhe/Desktop/bar_management_system/simulation/qsim/bar_management_system_20181214112809.sim.vwf
+Writing the resulting VWF to C:/Users/duryk/del/Merge/simulation/qsim/bar_management_system_20181214122830.sim.vwf
 
 Finished VCD to VWF conversion.
 

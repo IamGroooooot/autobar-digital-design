@@ -3,7 +3,7 @@ $comment
 		vcd file bar_management_system.msim.vcd -direction
 $end
 $date
-	Fri Dec 14 11:28:09 2018
+	Fri Dec 14 12:28:30 2018
 $end
 $version
 	ModelSim Version 10.5b
